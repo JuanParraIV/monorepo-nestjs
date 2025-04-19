@@ -1,0 +1,21 @@
+Hash: [1meeb0b58d495e24eb[39m[22m
+Time: [1m42[39m[22mms
+PublicPath: [1m/[39m[22m
+    [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mmain[ext][39m[22m  58.6 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mmain[ext][39m[22m
+[@nestjs/core] [1mexternal ["@nestjs/core"][39m[22m 42 bytes {[1m[33mmain[39m[22m}
+[@nestjs/common] [1mexternal ["@nestjs/common"][39m[22m 42 bytes {[1m[33mmain[39m[22m}
+[@nestjs/swagger] [1mexternal ["@nestjs/swagger"][39m[22m 42 bytes {[1m[33mmain[39m[22m}
+[[1m./apps/nest-api-doc/src/main.ts[39m[22m] 599 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/tslib/tslib.es6.mjs[39m[22m] 17.2 KiB {[1m[33mmain[39m[22m}
+[[1m./apps/nest-api-doc/src/app.module.ts[39m[22m] 195 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/@swc/helpers/esm/_ts_param.js[39m[22m] 60 bytes {[1m[33mmain[39m[22m}
+[[1m./apps/nest-api-doc/src/posts/posts.module.ts[39m[22m] 248 bytes {[1m[33mmain[39m[22m}
+[[1m./apps/nest-api-doc/src/posts/posts.service.ts[39m[22m] 2.36 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/@swc/helpers/esm/_ts_decorate.js[39m[22m] 69 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/@swc/helpers/esm/_ts_metadata.js[39m[22m] 69 bytes {[1m[33mmain[39m[22m}
+[[1m./apps/nest-api-doc/src/posts/posts.interface.ts[39m[22m] 372 bytes {[1m[33mmain[39m[22m}
+[[1m./apps/nest-api-doc/src/posts/posts.controller.ts[39m[22m] 1.85 KiB {[1m[33mmain[39m[22m}
+[[1m./apps/nest-api-doc/src/filters/http-exception.filter.ts[39m[22m] 821 bytes {[1m[33mmain[39m[22m}
+Watcher closed

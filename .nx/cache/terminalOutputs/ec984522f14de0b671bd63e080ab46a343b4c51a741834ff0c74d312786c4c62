@@ -1,0 +1,24 @@
+Hash: [1m4673511bbf0314bd[39m[22m
+Time: [1m34[39m[22mms
+PublicPath: [1m/[39m[22m
+          [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+      [1m[32mmain[ext][39m[22m  56.8 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+[1m[32massets/.gitkeep[39m[22m   0 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+Entrypoint [1mmain[39m[22m = [1m[32mmain[ext][39m[22m
+[fs] [1mexternal ["fs"][39m[22m 42 bytes {[1m[33mmain[39m[22m}
+[os] [1mexternal ["os"][39m[22m 42 bytes {[1m[33mmain[39m[22m}
+[joi] [1mexternal ["joi"][39m[22m 42 bytes {[1m[33mmain[39m[22m}
+[path] [1mexternal ["path"][39m[22m 42 bytes {[1m[33mmain[39m[22m}
+[@nestjs/core] [1mexternal ["@nestjs/core"][39m[22m 42 bytes {[1m[33mmain[39m[22m}
+[@nestjs/common] [1mexternal ["@nestjs/common"][39m[22m 42 bytes {[1m[33mmain[39m[22m}
+[@nestjs/swagger] [1mexternal ["@nestjs/swagger"][39m[22m 42 bytes {[1m[33mmain[39m[22m}
+[[1m./apps/nest-rspack/src/main.ts[39m[22m] 894 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/dotenv/config.js[39m[22m] 189 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/dotenv/lib/main.js[39m[22m] 3.08 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/tslib/tslib.es6.mjs[39m[22m] 17.2 KiB {[1m[33mmain[39m[22m}
+[[1m./apps/nest-rspack/src/config/env.ts[39m[22m] 392 bytes {[1m[33mmain[39m[22m}
+[[1m./apps/nest-rspack/src/app/app.module.ts[39m[22m] 250 bytes {[1m[33mmain[39m[22m}
+[[1m./apps/nest-rspack/src/config/swagger.ts[39m[22m] 699 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/dotenv/lib/cli-options.js[39m[22m] 303 bytes {[1m[33mmain[39m[22m}
+    + 5 hidden modules
+Watcher closed

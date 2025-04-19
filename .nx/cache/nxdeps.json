@@ -1,0 +1,1120 @@
+{
+  "version": "5.1",
+  "nxVersion": "16.1.4",
+  "deps": {
+    "@nestjs/common": "^11.0.20",
+    "@nestjs/core": "^11.0.20",
+    "@nestjs/platform-express": "^11.0.20",
+    "@nestjs/swagger": "^11.1.4",
+    "axios": "^1.8.4",
+    "joi": "^17.13.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "tslib": "^2.8.1",
+    "@babel/preset-react": "^7.26.3",
+    "@nestjs/schematics": "^11.0.5",
+    "@nestjs/testing": "^11.0.20",
+    "@nrwl/rspack": "^19.8.0",
+    "@nx/cypress": "20.8.0",
+    "@nx/eslint-plugin": "20.8.0",
+    "@nx/jest": "20.8.0",
+    "@nx/js": "20.8.0",
+    "@nx/linter": "19.8.4",
+    "@nx/nest": "20.8.0",
+    "@nx/node": "20.8.0",
+    "@nx/react": "20.8.0",
+    "@nx/rspack": "20.8.0",
+    "@nx/webpack": "20.8.0",
+    "@nx/workspace": "20.8.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.16",
+    "@rspack/core": "~1.3.5",
+    "@rspack/dev-server": "~1.1.1",
+    "@rspack/plugin-minify": "~0.7.5",
+    "@svgr/webpack": "^8.1.0",
+    "@testing-library/react": "16.3.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "22.14.1",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "@typescript-eslint/eslint-plugin": "^8.30.1",
+    "@typescript-eslint/parser": "^8.30.1",
+    "babel-jest": "^29.7.0",
+    "cypress": "^14.3.1",
+    "eslint": "~9.25.0",
+    "eslint-config-prettier": "10.1.2",
+    "eslint-plugin-cypress": "^4.2.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-environment-node": "^29.7.0",
+    "nx": "20.8.0",
+    "prettier": "^3.5.3",
+    "react-refresh": "^0.17.0",
+    "react-test-renderer": "19.1.0",
+    "ts-jest": "^29.3.2",
+    "ts-node": "10.9.2",
+    "typescript": "~5.8.3",
+    "url-loader": "^4.1.1"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "nodes": {
+    "nest-api-doc": {
+      "name": "nest-api-doc",
+      "type": "app",
+      "data": {
+        "name": "nest-api-doc",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/nest-api-doc/src",
+        "projectType": "application",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "production",
+              "^production"
+            ],
+            "executor": "@nx/rspack:rspack",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "defaultConfiguration": "production",
+            "options": {
+              "target": "node",
+              "outputPath": "dist/apps/nest-api-doc",
+              "main": "apps/nest-api-doc/src/main.ts",
+              "tsConfig": "apps/nest-api-doc/tsconfig.app.json",
+              "rspackConfig": "apps/nest-api-doc/rspack.config.js"
+            },
+            "configurations": {
+              "development": {
+                "mode": "development"
+              },
+              "production": {
+                "mode": "production",
+                "sourceMap": false
+              }
+            }
+          },
+          "serve": {
+            "executor": "@nx/js:node",
+            "defaultConfiguration": "development",
+            "options": {
+              "buildTarget": "nest-api-doc:build"
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "nest-api-doc:build:development"
+              },
+              "production": {
+                "buildTarget": "nest-api-doc:build:production"
+              }
+            }
+          },
+          "lint": {
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore"
+            ],
+            "executor": "@nx/linter:eslint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "apps/nest-api-doc/**/*.ts"
+              ]
+            },
+            "configurations": {}
+          },
+          "test": {
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ],
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/nest-api-doc/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            }
+          }
+        },
+        "tags": [],
+        "root": "apps/nest-api-doc",
+        "implicitDependencies": [],
+        "files": [
+          {
+            "file": "apps/nest-api-doc/.env",
+            "hash": "429338403796064816"
+          },
+          {
+            "file": "apps/nest-api-doc/.eslintrc.json",
+            "hash": "13800677001662881425"
+          },
+          {
+            "file": "apps/nest-api-doc/jest.config.ts",
+            "hash": "9165554178137387539"
+          },
+          {
+            "file": "apps/nest-api-doc/project.json",
+            "hash": "865302352114730187"
+          },
+          {
+            "file": "apps/nest-api-doc/rspack.config.js",
+            "hash": "4765308383733488942",
+            "dependencies": [
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nx/rspack",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-api-doc/src/app.module.ts",
+            "hash": "4488197789630265526",
+            "dependencies": [
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/common",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-api-doc/src/filters/http-exception.filter.ts",
+            "hash": "1526436467427278896",
+            "dependencies": [
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/common",
+                "type": "static"
+              },
+              {
+                "source": "nest-api-doc",
+                "target": "npm:express",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-api-doc/src/main.ts",
+            "hash": "1519017073700375763",
+            "dependencies": [
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/core",
+                "type": "static"
+              },
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/swagger",
+                "type": "static"
+              },
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/common",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-api-doc/src/posts/posts.controller.spec.ts",
+            "hash": "10215043628173184476",
+            "dependencies": [
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/testing",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-api-doc/src/posts/posts.controller.ts",
+            "hash": "12067746455328023987",
+            "dependencies": [
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/common",
+                "type": "static"
+              },
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/swagger",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-api-doc/src/posts/posts.interface.ts",
+            "hash": "11387435715095841353",
+            "dependencies": [
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/swagger",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-api-doc/src/posts/posts.module.ts",
+            "hash": "17475378241194347048",
+            "dependencies": [
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/common",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-api-doc/src/posts/posts.service.spec.ts",
+            "hash": "7587432127074078233",
+            "dependencies": [
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/testing",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-api-doc/src/posts/posts.service.ts",
+            "hash": "15098567298544959419",
+            "dependencies": [
+              {
+                "source": "nest-api-doc",
+                "target": "npm:@nestjs/common",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-api-doc/tsconfig.app.json",
+            "hash": "18146536384686769023"
+          },
+          {
+            "file": "apps/nest-api-doc/tsconfig.json",
+            "hash": "3490524966360018312"
+          },
+          {
+            "file": "apps/nest-api-doc/tsconfig.spec.json",
+            "hash": "11550347367511341917"
+          }
+        ]
+      }
+    },
+    "nest-rspack": {
+      "name": "nest-rspack",
+      "type": "app",
+      "data": {
+        "name": "nest-rspack",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/nest-rspack/src",
+        "projectType": "application",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "production",
+              "^production"
+            ],
+            "executor": "@nx/rspack:rspack",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "defaultConfiguration": "production",
+            "options": {
+              "target": "node",
+              "outputPath": "dist/apps/nest-rspack",
+              "main": "apps/nest-rspack/src/main.ts",
+              "tsConfig": "apps/nest-rspack/tsconfig.app.json",
+              "rspackConfig": "apps/nest-rspack/rspack.config.js",
+              "assets": [
+                "apps/nest-rspack/src/assets"
+              ]
+            },
+            "configurations": {
+              "development": {
+                "mode": "development"
+              },
+              "production": {
+                "mode": "production",
+                "sourceMap": false
+              }
+            }
+          },
+          "serve": {
+            "executor": "@nx/js:node",
+            "defaultConfiguration": "development",
+            "options": {
+              "buildTarget": "nest-rspack:build"
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "nest-rspack:build:development"
+              },
+              "production": {
+                "buildTarget": "nest-rspack:build:production"
+              }
+            }
+          },
+          "lint": {
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore"
+            ],
+            "executor": "@nx/linter:eslint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "apps/nest-rspack/**/*.ts"
+              ]
+            },
+            "configurations": {}
+          },
+          "test": {
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ],
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/nest-rspack/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            }
+          }
+        },
+        "tags": [],
+        "root": "apps/nest-rspack",
+        "implicitDependencies": [],
+        "files": [
+          {
+            "file": "apps/nest-rspack/.env",
+            "hash": "15991764734059746902"
+          },
+          {
+            "file": "apps/nest-rspack/.eslintrc.json",
+            "hash": "13800677001662881425"
+          },
+          {
+            "file": "apps/nest-rspack/jest.config.ts",
+            "hash": "13477311757523212276"
+          },
+          {
+            "file": "apps/nest-rspack/project.json",
+            "hash": "12226847186432306477"
+          },
+          {
+            "file": "apps/nest-rspack/rspack.config.js",
+            "hash": "4765308383733488942",
+            "dependencies": [
+              {
+                "source": "nest-rspack",
+                "target": "npm:@nx/rspack",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-rspack/src/app/app.controller.spec.ts",
+            "hash": "9499997688052526633",
+            "dependencies": [
+              {
+                "source": "nest-rspack",
+                "target": "npm:@nestjs/testing",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-rspack/src/app/app.controller.ts",
+            "hash": "9005150069945785676",
+            "dependencies": [
+              {
+                "source": "nest-rspack",
+                "target": "npm:@nestjs/common",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-rspack/src/app/app.module.ts",
+            "hash": "3163250445227373966",
+            "dependencies": [
+              {
+                "source": "nest-rspack",
+                "target": "npm:@nestjs/common",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-rspack/src/app/app.service.spec.ts",
+            "hash": "8587461140686713758",
+            "dependencies": [
+              {
+                "source": "nest-rspack",
+                "target": "npm:@nestjs/testing",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-rspack/src/app/app.service.ts",
+            "hash": "9967902337593410053",
+            "dependencies": [
+              {
+                "source": "nest-rspack",
+                "target": "npm:@nestjs/common",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-rspack/src/assets/.gitkeep",
+            "hash": "3244421341483603138"
+          },
+          {
+            "file": "apps/nest-rspack/src/config/env.ts",
+            "hash": "3635780961108813703",
+            "dependencies": [
+              {
+                "source": "nest-rspack",
+                "target": "npm:dotenv/config",
+                "type": "static"
+              },
+              {
+                "source": "nest-rspack",
+                "target": "npm:joi",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-rspack/src/config/swagger.ts",
+            "hash": "8414417635788822902",
+            "dependencies": [
+              {
+                "source": "nest-rspack",
+                "target": "npm:@nestjs/common",
+                "type": "static"
+              },
+              {
+                "source": "nest-rspack",
+                "target": "npm:@nestjs/swagger",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-rspack/src/main.ts",
+            "hash": "4148586298233589017",
+            "dependencies": [
+              {
+                "source": "nest-rspack",
+                "target": "npm:@nestjs/common",
+                "type": "static"
+              },
+              {
+                "source": "nest-rspack",
+                "target": "npm:@nestjs/core",
+                "type": "static"
+              }
+            ]
+          },
+          {
+            "file": "apps/nest-rspack/tsconfig.app.json",
+            "hash": "18146536384686769023"
+          },
+          {
+            "file": "apps/nest-rspack/tsconfig.json",
+            "hash": "3490524966360018312"
+          },
+          {
+            "file": "apps/nest-rspack/tsconfig.spec.json",
+            "hash": "11550347367511341917"
+          }
+        ]
+      }
+    }
+  },
+  "externalNodes": {
+    "npm:@nestjs/common": {
+      "type": "npm",
+      "name": "npm:@nestjs/common",
+      "data": {
+        "version": "^9.1.1",
+        "packageName": "@nestjs/common",
+        "hash": "5f613ad654bdd42c83f715430bc09159929bd50abf8cd7b0f37377a61cb97756"
+      }
+    },
+    "npm:@nestjs/core": {
+      "type": "npm",
+      "name": "npm:@nestjs/core",
+      "data": {
+        "version": "^9.1.1",
+        "packageName": "@nestjs/core",
+        "hash": "6dc4ed83ff8d16e2eb37c5d8e367b97c9b15fcc818465936dca654f519ba48c4"
+      }
+    },
+    "npm:@nestjs/platform-express": {
+      "type": "npm",
+      "name": "npm:@nestjs/platform-express",
+      "data": {
+        "version": "^9.1.1",
+        "packageName": "@nestjs/platform-express",
+        "hash": "bc83912a43f953544edb7c7722f368ce95f99e480480dd829eb41659c40e48c1"
+      }
+    },
+    "npm:@nestjs/swagger": {
+      "type": "npm",
+      "name": "npm:@nestjs/swagger",
+      "data": {
+        "version": "^6.3.0",
+        "packageName": "@nestjs/swagger",
+        "hash": "2eaa6393bce83b4c3cee62698a7f4dbb0a31b6eeb4de7805f79e596eed406eb1"
+      }
+    },
+    "npm:axios": {
+      "type": "npm",
+      "name": "npm:axios",
+      "data": {
+        "version": "^1.0.0",
+        "packageName": "axios",
+        "hash": "3bb061d446b4f359edc8852b74aebb84e3afca62352f58042cb61e953fee09df"
+      }
+    },
+    "npm:joi": {
+      "type": "npm",
+      "name": "npm:joi",
+      "data": {
+        "version": "^17.13.3",
+        "packageName": "joi",
+        "hash": "866f5ae3493625f6f3973683c05ef8ae1deaf51764cd7a736280e6efa834b23a"
+      }
+    },
+    "npm:react": {
+      "type": "npm",
+      "name": "npm:react",
+      "data": {
+        "version": "18.2.0",
+        "packageName": "react",
+        "hash": "12ae425a2713db0074860b5b34243594e928fffde0ebe74bc56e8f8fe2d61cf8"
+      }
+    },
+    "npm:react-dom": {
+      "type": "npm",
+      "name": "npm:react-dom",
+      "data": {
+        "version": "18.2.0",
+        "packageName": "react-dom",
+        "hash": "f7a8c5b1429dcdad40352d30cf1f06d7892f82df9875e0cd4ba8e288e84fba54"
+      }
+    },
+    "npm:reflect-metadata": {
+      "type": "npm",
+      "name": "npm:reflect-metadata",
+      "data": {
+        "version": "^0.1.13",
+        "packageName": "reflect-metadata",
+        "hash": "33e28b9a14340ac895a9d3e1b020a443fe2a6d574efb0b85f8bc43cbb02f27ed"
+      }
+    },
+    "npm:rxjs": {
+      "type": "npm",
+      "name": "npm:rxjs",
+      "data": {
+        "version": "^7.8.0",
+        "packageName": "rxjs",
+        "hash": "107a6a3fc13e57f299610eab1a33dc686ee08fd4687e0af6b755d959fe960c1b"
+      }
+    },
+    "npm:tslib": {
+      "type": "npm",
+      "name": "npm:tslib",
+      "data": {
+        "version": "^2.3.0",
+        "packageName": "tslib",
+        "hash": "a33e74687104ec3eee715b3039ada1f6fc526a5dbb18f125cfc6c30497bfe2b7"
+      }
+    },
+    "npm:@babel/preset-react": {
+      "type": "npm",
+      "name": "npm:@babel/preset-react",
+      "data": {
+        "version": "^7.14.5",
+        "packageName": "@babel/preset-react",
+        "hash": "ffe30beefd9c64b1432fa6cef7e90109d95d0ec69c3899768ebbabe12c246a48"
+      }
+    },
+    "npm:@nestjs/schematics": {
+      "type": "npm",
+      "name": "npm:@nestjs/schematics",
+      "data": {
+        "version": "^9.1.0",
+        "packageName": "@nestjs/schematics",
+        "hash": "737e96c1f83fae496d4a052aea0f13e35bad0a244542f77b46ca8f9429ab8908"
+      }
+    },
+    "npm:@nestjs/testing": {
+      "type": "npm",
+      "name": "npm:@nestjs/testing",
+      "data": {
+        "version": "^9.1.1",
+        "packageName": "@nestjs/testing",
+        "hash": "64e11fef04678cea63280f8177f444b71b9556ac95c207ede94338a32aac059d"
+      }
+    },
+    "npm:@nrwl/rspack": {
+      "type": "npm",
+      "name": "npm:@nrwl/rspack",
+      "data": {
+        "version": "^16.1.1",
+        "packageName": "@nrwl/rspack",
+        "hash": "c09948cefc6f8ab416ea1e4d91f485d9165c1f396821a843f734351feb532a2e"
+      }
+    },
+    "npm:@nx/cypress": {
+      "type": "npm",
+      "name": "npm:@nx/cypress",
+      "data": {
+        "version": "16.1.4",
+        "packageName": "@nx/cypress",
+        "hash": "52d94057829c9cf60a1acc48fba7e4857c6478693ce013e1c00d5d6b61ae0180"
+      }
+    },
+    "npm:@nx/eslint-plugin": {
+      "type": "npm",
+      "name": "npm:@nx/eslint-plugin",
+      "data": {
+        "version": "16.1.4",
+        "packageName": "@nx/eslint-plugin",
+        "hash": "24f68f3a514bba30ef1c12fcc240dd4157bfd99ecb647576ca86f98c6ddc285d"
+      }
+    },
+    "npm:@nx/jest": {
+      "type": "npm",
+      "name": "npm:@nx/jest",
+      "data": {
+        "version": "16.1.4",
+        "packageName": "@nx/jest",
+        "hash": "4725e384ad1a3cc73e7a8f11a175dce5493366b2581dbe9a757525027d0f60a3"
+      }
+    },
+    "npm:@nx/js": {
+      "type": "npm",
+      "name": "npm:@nx/js",
+      "data": {
+        "version": "16.1.4",
+        "packageName": "@nx/js",
+        "hash": "961ad7c6616f7bf19c1826e63690bd4bc22a187cd5eebd366bf1ef5352f0053f"
+      }
+    },
+    "npm:@nx/linter": {
+      "type": "npm",
+      "name": "npm:@nx/linter",
+      "data": {
+        "version": "16.1.4",
+        "packageName": "@nx/linter",
+        "hash": "efed259cc49b08a8d1461badb02cf86ef408c12b60959dbdd339edd1cfae5fe0"
+      }
+    },
+    "npm:@nx/nest": {
+      "type": "npm",
+      "name": "npm:@nx/nest",
+      "data": {
+        "version": "16.1.4",
+        "packageName": "@nx/nest",
+        "hash": "6ed5b3026941dbdaad2e4b45490b3f91953e545d6a8dec4b936934818518a53d"
+      }
+    },
+    "npm:@nx/node": {
+      "type": "npm",
+      "name": "npm:@nx/node",
+      "data": {
+        "version": "16.1.4",
+        "packageName": "@nx/node",
+        "hash": "1af40c184398d7e3aca9508050040ca097a804066b26a10b3ae66c5818ebc3cc"
+      }
+    },
+    "npm:@nx/react": {
+      "type": "npm",
+      "name": "npm:@nx/react",
+      "data": {
+        "version": "16.1.4",
+        "packageName": "@nx/react",
+        "hash": "d2a32ff1ac04589cefc5ab98e0452f384960192cfb185b0ff9e79ecf45053bfb"
+      }
+    },
+    "npm:@nx/rspack": {
+      "type": "npm",
+      "name": "npm:@nx/rspack",
+      "data": {
+        "version": "16.1.1",
+        "packageName": "@nx/rspack",
+        "hash": "8d3fe7d62b55b8d98ffae0f6bc94ea0df5ffb0002f44bb03a509f0e85047361f"
+      }
+    },
+    "npm:@nx/webpack": {
+      "type": "npm",
+      "name": "npm:@nx/webpack",
+      "data": {
+        "version": "16.1.4",
+        "packageName": "@nx/webpack",
+        "hash": "100741f9581f8609998c579d2020f3f66b6876b7996332392996d0d8d76e94e5"
+      }
+    },
+    "npm:@nx/workspace": {
+      "type": "npm",
+      "name": "npm:@nx/workspace",
+      "data": {
+        "version": "16.1.4",
+        "packageName": "@nx/workspace",
+        "hash": "8c5947f7f037ba2930a320e7f21175af656ea0432181edc0da55d27a9744e9b2"
+      }
+    },
+    "npm:@pmmmwh/react-refresh-webpack-plugin": {
+      "type": "npm",
+      "name": "npm:@pmmmwh/react-refresh-webpack-plugin",
+      "data": {
+        "version": "^0.5.7",
+        "packageName": "@pmmmwh/react-refresh-webpack-plugin",
+        "hash": "4919ec141c94851f0a86c0ca7e1f616a7c440fe43c42441ea69c4a4ca18f1702"
+      }
+    },
+    "npm:@rspack/core": {
+      "type": "npm",
+      "name": "npm:@rspack/core",
+      "data": {
+        "version": "~0.1.0",
+        "packageName": "@rspack/core",
+        "hash": "6b8650ba8a603c42441654dd7c4035aba8fc76e0222da784ba077bd5ba70a4ca"
+      }
+    },
+    "npm:@rspack/dev-server": {
+      "type": "npm",
+      "name": "npm:@rspack/dev-server",
+      "data": {
+        "version": "~0.1.0",
+        "packageName": "@rspack/dev-server",
+        "hash": "2f10acb91db0b1556c8962a18180b432fe3a9565fa01bc99db26a1df438d0a89"
+      }
+    },
+    "npm:@rspack/plugin-minify": {
+      "type": "npm",
+      "name": "npm:@rspack/plugin-minify",
+      "data": {
+        "version": "~0.1.0",
+        "packageName": "@rspack/plugin-minify",
+        "hash": "e87d66bae1f9c0cc6d4f927d45b37af04319bf370bdb831d508edc4e0095397f"
+      }
+    },
+    "npm:@svgr/webpack": {
+      "type": "npm",
+      "name": "npm:@svgr/webpack",
+      "data": {
+        "version": "^6.1.2",
+        "packageName": "@svgr/webpack",
+        "hash": "f8686320e57f6456040dd2c7b7b00039e9d69baf701c9c1cb445f7a71e7832c1"
+      }
+    },
+    "npm:@testing-library/react": {
+      "type": "npm",
+      "name": "npm:@testing-library/react",
+      "data": {
+        "version": "14.0.0",
+        "packageName": "@testing-library/react",
+        "hash": "f17e86bb9f8b57cae075939886ce407efc48aca72d269962e0d9aed92fbc192a"
+      }
+    },
+    "npm:@types/jest": {
+      "type": "npm",
+      "name": "npm:@types/jest",
+      "data": {
+        "version": "^29.4.0",
+        "packageName": "@types/jest",
+        "hash": "90eee2ce66d772ca89d6d89276dc58aaa3367a5abeacef95657ac797f2b654e7"
+      }
+    },
+    "npm:@types/node": {
+      "type": "npm",
+      "name": "npm:@types/node",
+      "data": {
+        "version": "18.14.2",
+        "packageName": "@types/node",
+        "hash": "81de8f8549b3f0b7e90d8a958bd8c1600cb6a84922beb7ef9e2e354701d3d45c"
+      }
+    },
+    "npm:@types/react": {
+      "type": "npm",
+      "name": "npm:@types/react",
+      "data": {
+        "version": "18.0.28",
+        "packageName": "@types/react",
+        "hash": "07a40125cf1476694a540d4937fa8b2bbdef18ee54ed8451fc3c4fdc99157b14"
+      }
+    },
+    "npm:@types/react-dom": {
+      "type": "npm",
+      "name": "npm:@types/react-dom",
+      "data": {
+        "version": "18.0.11",
+        "packageName": "@types/react-dom",
+        "hash": "028ca82d6d312c985ee7a71d103a0acc7100d5462449671f0891c55e15fac879"
+      }
+    },
+    "npm:@typescript-eslint/eslint-plugin": {
+      "type": "npm",
+      "name": "npm:@typescript-eslint/eslint-plugin",
+      "data": {
+        "version": "^5.58.0",
+        "packageName": "@typescript-eslint/eslint-plugin",
+        "hash": "7f37420d6b6fca3380225d4a32993c83c96e9e6d69d247da15fbe13e20be1c05"
+      }
+    },
+    "npm:@typescript-eslint/parser": {
+      "type": "npm",
+      "name": "npm:@typescript-eslint/parser",
+      "data": {
+        "version": "^5.58.0",
+        "packageName": "@typescript-eslint/parser",
+        "hash": "f9d4f8d39ba1b69bf5dc2a7abae8f17847852517adc2c2e6a6076d79c379599d"
+      }
+    },
+    "npm:babel-jest": {
+      "type": "npm",
+      "name": "npm:babel-jest",
+      "data": {
+        "version": "^29.4.1",
+        "packageName": "babel-jest",
+        "hash": "9cbc748088a031fda1f53dbd55332edc2de76fa03b8c948b2bcb3a488f380e61"
+      }
+    },
+    "npm:cypress": {
+      "type": "npm",
+      "name": "npm:cypress",
+      "data": {
+        "version": "^12.11.0",
+        "packageName": "cypress",
+        "hash": "c917868ebc46c86d6ae1e3354d774bf1000e45a516ed7b15a77940e86fd7d91e"
+      }
+    },
+    "npm:eslint": {
+      "type": "npm",
+      "name": "npm:eslint",
+      "data": {
+        "version": "~8.15.0",
+        "packageName": "eslint",
+        "hash": "c3fc3110dbfbfaf413a8f013aa9425d4e587a31c00866508575ce8337e164293"
+      }
+    },
+    "npm:eslint-config-prettier": {
+      "type": "npm",
+      "name": "npm:eslint-config-prettier",
+      "data": {
+        "version": "8.1.0",
+        "packageName": "eslint-config-prettier",
+        "hash": "d3e9b67a7cfe7ef3591b6664ffb6b82f16125b94b210b3f4937b9d4e3ea07640"
+      }
+    },
+    "npm:eslint-plugin-cypress": {
+      "type": "npm",
+      "name": "npm:eslint-plugin-cypress",
+      "data": {
+        "version": "^2.10.3",
+        "packageName": "eslint-plugin-cypress",
+        "hash": "28ada4da52fb11ee58ee308bb1a7a0746a7321ab74e3ee4eb2afb0825d088fb1"
+      }
+    },
+    "npm:jest": {
+      "type": "npm",
+      "name": "npm:jest",
+      "data": {
+        "version": "^29.4.1",
+        "packageName": "jest",
+        "hash": "3af3b487c7eed4bc28feab196619415910ede8050371b0702f9ac53ac3475048"
+      }
+    },
+    "npm:jest-environment-jsdom": {
+      "type": "npm",
+      "name": "npm:jest-environment-jsdom",
+      "data": {
+        "version": "^29.4.1",
+        "packageName": "jest-environment-jsdom",
+        "hash": "0fb4564d950f26460d48e380a696ef98c50cab179bdedbc142a9cc19d1eed823"
+      }
+    },
+    "npm:jest-environment-node": {
+      "type": "npm",
+      "name": "npm:jest-environment-node",
+      "data": {
+        "version": "^29.4.1",
+        "packageName": "jest-environment-node",
+        "hash": "9f5bb878a660ac060294740001e0ae77a29d4685855b060ccf79a5125fe7279b"
+      }
+    },
+    "npm:nx": {
+      "type": "npm",
+      "name": "npm:nx",
+      "data": {
+        "version": "16.1.4",
+        "packageName": "nx",
+        "hash": "09ca774fa920e5825afc6f0dca8495346d67b2d533ce65ca6b83fa2b6ddc419d"
+      }
+    },
+    "npm:prettier": {
+      "type": "npm",
+      "name": "npm:prettier",
+      "data": {
+        "version": "^2.6.2",
+        "packageName": "prettier",
+        "hash": "edd656866e07e461bbb100c31431768bd26c2290760c79332661c6e4aa0cc7ca"
+      }
+    },
+    "npm:react-refresh": {
+      "type": "npm",
+      "name": "npm:react-refresh",
+      "data": {
+        "version": "^0.10.0",
+        "packageName": "react-refresh",
+        "hash": "f44e028987a77e164c0f059df6809b9fa718642ba03e66b01c97649d032fc35d"
+      }
+    },
+    "npm:react-test-renderer": {
+      "type": "npm",
+      "name": "npm:react-test-renderer",
+      "data": {
+        "version": "18.2.0",
+        "packageName": "react-test-renderer",
+        "hash": "98886c181b5ab5b1086d5d077a1509edc4ae212248d213d54f9cb9d075a5206a"
+      }
+    },
+    "npm:ts-jest": {
+      "type": "npm",
+      "name": "npm:ts-jest",
+      "data": {
+        "version": "^29.1.0",
+        "packageName": "ts-jest",
+        "hash": "65aa0d173a2946730a1487267968ac4a1ed568234ea45d9d4e0fa1c4176f61ec"
+      }
+    },
+    "npm:ts-node": {
+      "type": "npm",
+      "name": "npm:ts-node",
+      "data": {
+        "version": "10.9.1",
+        "packageName": "ts-node",
+        "hash": "9948e441d7a81407c49a16f09f63cb47b33f39f904aca2d55f060babe3dbd95f"
+      }
+    },
+    "npm:typescript": {
+      "type": "npm",
+      "name": "npm:typescript",
+      "data": {
+        "version": "~5.0.2",
+        "packageName": "typescript",
+        "hash": "94665d7a16821bbb28e03e07431b8662051e64ee9ac7a831e75ceddb838bca54"
+      }
+    },
+    "npm:url-loader": {
+      "type": "npm",
+      "name": "npm:url-loader",
+      "data": {
+        "version": "^4.1.1",
+        "packageName": "url-loader",
+        "hash": "4ec97d17fa07439855441020fb7bf4f1950b28d127a343f2fff54f6d79100794"
+      }
+    }
+  },
+  "dependencies": {
+    "nest-api-doc": [
+      {
+        "source": "nest-api-doc",
+        "target": "npm:@nx/rspack",
+        "type": "static"
+      },
+      {
+        "source": "nest-api-doc",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "nest-api-doc",
+        "target": "npm:@nestjs/core",
+        "type": "static"
+      },
+      {
+        "source": "nest-api-doc",
+        "target": "npm:@nestjs/swagger",
+        "type": "static"
+      },
+      {
+        "source": "nest-api-doc",
+        "target": "npm:@nestjs/testing",
+        "type": "static"
+      }
+    ],
+    "nest-rspack": [
+      {
+        "source": "nest-rspack",
+        "target": "npm:@nx/rspack",
+        "type": "static"
+      },
+      {
+        "source": "nest-rspack",
+        "target": "npm:@nestjs/testing",
+        "type": "static"
+      },
+      {
+        "source": "nest-rspack",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "nest-rspack",
+        "target": "npm:joi",
+        "type": "static"
+      },
+      {
+        "source": "nest-rspack",
+        "target": "npm:@nestjs/swagger",
+        "type": "static"
+      },
+      {
+        "source": "nest-rspack",
+        "target": "npm:@nestjs/core",
+        "type": "static"
+      }
+    ]
+  }
+}
