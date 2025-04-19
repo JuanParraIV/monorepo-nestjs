@@ -152926,3 +152926,73 @@
 [NX v20.8.0 Daemon Server] - 2025-04-19T02:25:06.247Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
 [NX v20.8.0 Daemon Server] - 2025-04-19T02:25:06.247Z - Time taken for 'total execution time for createProjectGraph()' 2.673924000002444ms
 [NX v20.8.0 Daemon Server] - 2025-04-19T02:25:12.621Z - Closed a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.752Z - Established a connection. Number of open connections: 2
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.755Z - Closed a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.756Z - Established a connection. Number of open connections: 2
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.759Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.759Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.760Z - Done responding to the client project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.760Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.760Z - Time taken for 'total for creating and serializing project graph' 0.5595089999260381ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.776Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.777Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.777Z - Done responding to the client project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.777Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.777Z - Time taken for 'total for creating and serializing project graph' 0.4949740000301972ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.779Z - Established a connection. Number of open connections: 3
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.780Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.780Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.781Z - Done responding to the client project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.781Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:28:16.781Z - Time taken for 'total for creating and serializing project graph' 0.4544660000829026ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.178Z - [WATCHER]: apps/products/jest.config.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.180Z - [REQUEST]: Responding to the client. File watch changed
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.180Z - Done responding to the client File watch changed
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.181Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.181Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.181Z - Time taken for 'changed-projects' 0.14171100000385195ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.281Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.281Z - [REQUEST]: apps/products/jest.config.ts
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.281Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.286Z - Time taken for 'hash changed files from watcher' 0.13640199997462332ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.287Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.288Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.288Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.290Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.290Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.290Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.341Z - Time taken for 'build-project-configs' 56.9711959999986ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.349Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.350Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.350Z - Time taken for 'total execution time for createProjectGraph()' 7.940119999926537ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.690Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.691Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.691Z - Done responding to the client project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.691Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:39.691Z - Time taken for 'total for creating and serializing project graph' 0.5456100000301376ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.187Z - [WATCHER]: apps/products/jest.config.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.188Z - [REQUEST]: Responding to the client. File watch changed
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.188Z - Done responding to the client File watch changed
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.189Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.190Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.190Z - Time taken for 'changed-projects' 0.34446300007402897ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.287Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.289Z - [REQUEST]: apps/products/jest.config.ts
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.289Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.324Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.326Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.328Z - Handled GLOB. Handling time: 3. Response time: 4.
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.329Z - Time taken for 'hash changed files from watcher' 0.18340700003318489ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.343Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.344Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.345Z - Handled HASH_GLOB. Handling time: 12. Response time: 2.
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.431Z - Time taken for 'build-project-configs' 134.65615499997512ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.436Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.437Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.437Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.438Z - Time taken for 'total execution time for createProjectGraph()' 4.515809000004083ms
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.690Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.691Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.691Z - Done responding to the client project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.691Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-19T02:29:41.691Z - Time taken for 'total for creating and serializing project graph' 0.5448420000029728ms
