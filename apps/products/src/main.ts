@@ -6,10 +6,11 @@
 import { Logger, ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app/app.module';
-import { envs } from './config/env';
-import setupSwagger from './config/swagger';
+import { envs, setupSwagger } from './configs';
+
 
 async function bootstrap() {
+  const logger = new Logger('Main');
   const app = await NestFactory.create(AppModule);
   const globalPrefix = 'api/v1';
   app.setGlobalPrefix(globalPrefix);
@@ -20,12 +21,16 @@ async function bootstrap() {
       transform: true,
     }),
   );
-  setupSwagger(app);
+  setupSwagger(app, {
+  title: 'Products API',
+  description: 'API documentation for Products microservice',
+  version: '1.0.0',
+}, `${globalPrefix}/docs`);
   await app.listen(envs.port);
-  Logger.log(
+  logger.log(
     `🚀 Application is running on: http://localhost:${envs.port}/${globalPrefix}`
   );
-  Logger.log(
+  logger.log(
     `📖 Swagger is running on: http://localhost:${envs.port}/${globalPrefix}/docs`
   );
 }

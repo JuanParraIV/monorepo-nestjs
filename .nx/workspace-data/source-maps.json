@@ -575,6 +575,80 @@
       "nx/target-defaults"
     ]
   },
+  "apps/products/generated/products-prisma": {
+    "root": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.env": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "apps/products/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ]
+  },
   "apps/products": {
     "root": [
       "apps/products/project.json",

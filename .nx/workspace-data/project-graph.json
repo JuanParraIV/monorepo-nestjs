@@ -1,5 +1,59 @@
 {
   "nodes": {
+    "prisma-client-a7ce614d4f2a0bd78cae11ec25865f51f7940d8103e754f7f3edb9ab583146b8": {
+      "name": "prisma-client-a7ce614d4f2a0bd78cae11ec25865f51f7940d8103e754f7f3edb9ab583146b8",
+      "type": "lib",
+      "data": {
+        "root": "apps/products/generated/products-prisma",
+        "targets": {
+          "eslint:lint": {
+            "cache": true,
+            "options": {
+              "cwd": "apps/products/generated/products-prisma",
+              "env": {
+                "ESLINT_USE_FLAT_CONFIG": "false"
+              },
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/apps/products/.eslintrc.json",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "bun eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "prisma-client-a7ce614d4f2a0bd78cae11ec25865f51f7940d8103e754f7f3edb9ab583146b8",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "nest-api-doc": {
       "name": "nest-api-doc",
       "type": "app",
@@ -441,11 +495,18 @@
   },
   "externalNodes": {},
   "dependencies": {
+    "prisma-client-a7ce614d4f2a0bd78cae11ec25865f51f7940d8103e754f7f3edb9ab583146b8": [],
     "nest-api-doc": [],
     "nest-rspack": [],
-    "products": []
+    "products": [
+      {
+        "source": "products",
+        "target": "prisma-client-a7ce614d4f2a0bd78cae11ec25865f51f7940d8103e754f7f3edb9ab583146b8",
+        "type": "static"
+      }
+    ]
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1745029781433
+  "computedAt": 1745097798209
 }

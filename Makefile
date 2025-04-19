@@ -23,6 +23,10 @@ help:
 	@echo "  format          Format all code with Prettier"
 	@echo "  upgrade         Upgrade all dependencies (bun)"
 	@echo "  ci              Run lint, test, and build (for CI/CD)"
+  @echo "  postgres        Start Postgres container"
+  @echo "  postgresdown    Stop and remove Postgres container"
+  @echo "  createdb        Create micro_db database in Postgres container"
+  @echo "  dropdb          Drop micro_db database in Postgres container"
 
 install:
 	$(BUN) install
@@ -31,10 +35,10 @@ clean:
 	rm -rf node_modules dist
 
 lint:
-	$(NX) lint
+	$(BUN) lint
 
 test:
-	$(NX) test
+	$(BUN) test
 
 test-affected:
 	$(NX) affected:test --base=origin/main
@@ -63,4 +67,29 @@ format:
 upgrade:
 	$(BUN) upgrade
 
+postgres:
+	$(DOCKER) run --name microdb -e POSTGRES_USER=root -e POSTGRES_PASSWORD=TEst.0429.30 -p 5435:5432 -d postgres:14-alpine
+	@echo "Postgres container started on port 5435"
+	@echo "Postgres container started with name microdb"
+
+postgresdown:
+	$(DOCKER) stop microdb
+	$(DOCKER) rm microdb
+	@echo "Postgres container stopped and removed"
+
+createdb:
+	$(DOCKER) exec -it microdb createdb --username=root --owner=root micro_db
+	@echo "Database micro_db created"
+
+dropdb:
+	$(DOCKER) exec -it microdb dropdb micro_db
+	@echo "Database micro_db dropped"
+
+prismaup:
+  $(BUN) run prisma migrate dev --name init
+  @echo "Prisma migration applied"
+
+prismadown:
+  $(BUN) run prisma migrate reset --force
+  @echo "Prisma migration reset"
 ci: lint test build
