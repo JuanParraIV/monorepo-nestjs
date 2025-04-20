@@ -1,4 +1,5 @@
 import { Body, Controller, Delete, Get, Param, ParseUUIDPipe, Patch, Post, Query } from '@nestjs/common';
+import { PaginationDto } from '../../common';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 import { ProductsService } from './products.service';
@@ -13,8 +14,8 @@ export class ProductsController {
   }
 
   @Get()
-  findAll(@Query('page_id') page_id: number, @Query('page_size') page_size: number) {
-    return this.productsService.findAll(page_id, page_size);
+  findAll(@Query() paginationDto: PaginationDto) {
+    return this.productsService.findAll(paginationDto);
   }
 
   @Get(':id')

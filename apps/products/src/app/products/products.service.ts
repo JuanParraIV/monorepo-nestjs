@@ -5,9 +5,9 @@ import {
 	OnModuleInit,
 } from "@nestjs/common";
 import { PrismaClient } from "../../../generated/products-prisma";
+import { PaginationDto } from "../../common";
 import type { CreateProductDto } from "./dto/create-product.dto";
 import type { UpdateProductDto } from "./dto/update-product.dto";
-import { Product } from "./entities/product.entity";
 
 @Injectable()
 export class ProductsService extends PrismaClient implements OnModuleInit {
@@ -17,8 +17,6 @@ export class ProductsService extends PrismaClient implements OnModuleInit {
 		this.$connect();
 		this.logger.log("ProductService ready to use");
 	}
-
-	private products: Product[] = [];
 
 	/**
 	 * Creates a new product with the provided details.
@@ -33,33 +31,64 @@ export class ProductsService extends PrismaClient implements OnModuleInit {
 			const product = await this.product.create({
 				data: { name, description, price },
 			});
+			if (!product) {
+				throw new NotFoundException("Product not created");
+			}
 			this.logger.log("Product created successfully");
 			return product;
 		} catch (error) {
 			this.logger.error(`Failed to create product: ${error.message}`);
+			throw error;
 		}
 	}
 
 	/**
-	 * Retrieves a paginated list of products based on the provided page ID and page size.
+	 * Retrieves a paginated list of products.
 	 *
-	 * @param page_id - The current page number (1-based index).
-	 * @param page_size - The number of products to include in each page.
-	 * @returns An array of products for the specified page.
-	 * @throws {NotFoundException} If no products are found for the given page and size.
+	 * @param paginationDto - An object containing pagination details:
+	 *   - `current_page`: The current page number to retrieve.
+	 *   - `limit`: The number of products to retrieve per page.
+	 *
+	 * @returns An object containing:
+	 *   - `data`: An array of products for the current page.
+	 *   - `meta`: Metadata about the pagination, including:
+	 *     - `total_products`: The total number of products.
+	 *     - `current_page`: The current page number.
+	 *     - `total_pages`: The total number of pages.
+	 *
+	 * @throws NotFoundException - If the requested page exceeds the total number of pages.
+	 * @throws Error - If an error occurs during the retrieval process.
 	 */
-	async findAll(page_id: number, page_size: number) {
-		const start = (page_id - 1) * page_size;
+	async findAll(paginationDto: PaginationDto) {
+		const { current_page, limit } = paginationDto;
+
+		const start = (current_page - 1) * limit;
 		try {
+			const totalProducts = await this.product.count({ where: { available: true } });
+			const totalPages = Math.ceil(totalProducts / limit);
 			const products = await this.product.findMany({
 				skip: start,
-				take: page_size,
-				// orderBy: { createdAt: 'desc' }, // opcional
+				take: limit,
+				orderBy: { createdAt: "desc" },
+        where: { available: true },
 			});
+			if (current_page > totalPages) {
+				throw new NotFoundException(
+					`Page ${current_page} exceeds total pages ${totalPages}`,
+				);
+			}
 			this.logger.log("Products retrieved successfully");
-			return products;
+			return {
+				data: products,
+				meta: {
+					total_products: totalProducts,
+					current_page: current_page,
+					total_pages: totalPages,
+				},
+			};
 		} catch (error) {
 			this.logger.error(`Failed to retrieve products: ${error.message}`);
+			throw error;
 		}
 	}
 
@@ -67,13 +96,14 @@ export class ProductsService extends PrismaClient implements OnModuleInit {
 	 * Retrieves a single product by its unique identifier.
 	 *
 	 * @param id - The unique identifier of the product to retrieve.
-	 * @returns The product that matches the given identifier.
-	 * @throws NotFoundException - If no product with the specified identifier is found.
+	 * @returns A promise that resolves to the product if found.
+	 * @throws {NotFoundException} If no product with the given ID is found.
+	 * @throws {Error} If an error occurs during the retrieval process.
 	 */
-	findOne(id: string) {
+	async findOne(id: string) {
 		try {
-			const product = this.product.findFirst({
-				where: { id },
+			const product = await this.product.findFirst({
+				where: { id, available: true },
 			});
 			if (!product) {
 				throw new NotFoundException(`Product with id ${id} not found`);
@@ -82,44 +112,59 @@ export class ProductsService extends PrismaClient implements OnModuleInit {
 			return product;
 		} catch (error) {
 			this.logger.error(`Failed to retrieve product: ${error.message}`);
+			throw error;
 		}
 	}
 
 	/**
-	 * Finds a product by its name.
+	 * Retrieves a single product by its name.
 	 *
-	 * @param name - The name of the product to search for.
-	 * @returns The product that matches the given name.
-	 * @throws {NotFoundException} If no product with the specified name is found.
+	 * @param name - The name of the product to retrieve.
+	 * @returns A promise that resolves to the product if found.
+	 * @throws {NotFoundException} If no product with the given name is found.
+	 * @throws {Error} If an error occurs during the retrieval process.
 	 */
-	findOneByName(name: string) {
-		const product = this.products.find((product) => product.name === name);
-		if (!product) {
-			this.logger.error(`Product with name ${name} not found`);
+	async findOneByName(name: string) {
+		try {
+			const product = await this.product.findFirst({
+				where: { name, available: true },
+			});
+			if (!product) {
+				throw new NotFoundException(`Product with name ${name} not found`);
+			}
+			this.logger.log("Product by name retrieved successfully");
+			return product;
+		} catch (error) {
+			this.logger.error(`Failed to retrieve product: ${error.message}`);
+			throw error;
 		}
-		return product;
 	}
 
 	/**
-	 * Updates an existing product with the provided data.
+	 * Updates a product with the provided details.
 	 *
 	 * @param id - The unique identifier of the product to update.
-	 * @param updateProductDto - An object containing the updated product details.
-	 * @throws {NotFoundException} If a product with the specified ID is not found.
-	 * @returns The updated product.
+	 * @param updateProductDto - The data transfer object containing the updated product details.
+	 * @returns The updated product object.
+	 * @throws NotFoundException - If no product with the given ID is found.
 	 */
 	async update(id: string, updateProductDto: UpdateProductDto) {
-		const productToUpdate = this.findOne(id);
 		const { name, description, price } = updateProductDto;
 		try {
+			const productToUpdate = this.findOne(id);
+
+			if (!productToUpdate) {
+				throw new NotFoundException(`Product with id ${id} not found`);
+			}
 			const updatedProduct = await this.product.update({
-				where: { id },
+				where: { id, available: true },
 				data: { name, description, price },
 			});
 			this.logger.log("Product updated successfully");
 			return updatedProduct;
 		} catch (error) {
 			this.logger.error(`Failed to update product: ${error.message}`);
+			throw error;
 		}
 	}
 
@@ -131,15 +176,25 @@ export class ProductsService extends PrismaClient implements OnModuleInit {
 	 * @throws NotFoundException - If no product with the given ID is found.
 	 */
 	async remove(id: string) {
-		const productToRemove = this.findOne(id);
 		try {
-			const removedProduct = await this.product.delete({
+			const productToRemove = this.findOne(id);
+			if (!productToRemove) {
+				throw new NotFoundException(`Product with id ${id} not found`);
+			}
+			// Soft delete the product by setting available to false
+			const updatedProduct = await this.product.update({
 				where: { id },
+				data: { available: false },
 			});
-			this.logger.log("Product removed successfully");
-			return removedProduct;
+			// Optionally, you can also delete the product from the database
+			//const removedProduct = await this.product.delete({
+			//  where: { id },
+			// });
+			this.logger.log("Product soft deleted successfully");
+			return updatedProduct;
 		} catch (error) {
 			this.logger.error(`Failed to remove product: ${error.message}`);
+			throw error;
 		}
 	}
 }
