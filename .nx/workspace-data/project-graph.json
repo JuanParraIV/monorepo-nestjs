@@ -437,15 +437,163 @@
         "tags": [],
         "implicitDependencies": []
       }
+    },
+    "tcp-ms": {
+      "name": "tcp-ms",
+      "type": "app",
+      "data": {
+        "root": "apps/tcp-ms",
+        "targets": {
+          "eslint:lint": {
+            "cache": true,
+            "options": {
+              "cwd": "apps/tcp-ms",
+              "env": {
+                "ESLINT_USE_FLAT_CONFIG": "false"
+              },
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{projectRoot}/.eslintrc.json",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "bun eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "@nx/rspack:rspack",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "defaultConfiguration": "production",
+            "options": {
+              "target": "node",
+              "outputPath": "dist/apps/tcp-ms",
+              "main": "apps/tcp-ms/src/main.ts",
+              "tsConfig": "apps/tcp-ms/tsconfig.app.json",
+              "rspackConfig": "apps/tcp-ms/rspack.config.js",
+              "assets": [
+                "apps/tcp-ms/src/assets"
+              ]
+            },
+            "configurations": {
+              "development": {
+                "mode": "development"
+              },
+              "production": {
+                "mode": "production",
+                "sourceMap": false
+              }
+            },
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "production",
+              "^production"
+            ]
+          },
+          "serve": {
+            "executor": "@nx/js:node",
+            "defaultConfiguration": "development",
+            "options": {
+              "buildTarget": "tcp-ms:build"
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "tcp-ms:build:development"
+              },
+              "production": {
+                "buildTarget": "tcp-ms:build:production"
+              }
+            },
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/linter:eslint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "apps/tcp-ms/**/*.ts"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore"
+            ]
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/tcp-ms/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            },
+            "parallelism": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ]
+          }
+        },
+        "name": "tcp-ms",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/tcp-ms/src",
+        "projectType": "application",
+        "tags": [],
+        "implicitDependencies": []
+      }
     }
   },
   "externalNodes": {},
   "dependencies": {
     "http-ms-products": [],
     "nest-api-doc": [],
-    "nest-rspack": []
+    "nest-rspack": [],
+    "tcp-ms": []
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1745112631289
+  "computedAt": 1745115313105
 }

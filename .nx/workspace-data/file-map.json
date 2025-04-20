@@ -23,80 +23,80 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "nx.json",
-        "hash": "9682494175289310015"
+        "file": "bun.lock",
+        "hash": "10291374893389457323"
       },
       {
         "file": ".eslintrc.json",
         "hash": "18315524891129148814"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": ".gitignore",
         "hash": "3171816815418232237"
       },
       {
-        "file": "babel.config.json",
-        "hash": "5546405625092116747"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "8865097869854018350"
-      },
-      {
-        "file": "bun.lock",
-        "hash": "10291374893389457323"
-      },
-      {
-        "file": "README.md",
-        "hash": "1513932689567033943"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "235626400633494639"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
         "file": "libs/.gitkeep",
         "hash": "3244421341483603138"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "apps/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "package.json",
-        "hash": "17162017197067617779"
-      },
-      {
         "file": "tools/tsconfig.tools.json",
         "hash": "16088922570277978783"
       },
       {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
+        "file": "README.md",
+        "hash": "1513932689567033943"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "package.json",
+        "hash": "8714253792454933454"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "8865097869854018350"
       },
       {
         "file": "Makefile",
         "hash": "2923950034825035792"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": "nx.json",
+        "hash": "9682494175289310015"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "235626400633494639"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "babel.config.json",
+        "hash": "5546405625092116747"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
       }
     ],
     "projectFileMap": {
@@ -277,6 +277,108 @@
         },
         {
           "file": "apps/nest-api-doc/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
+      "tcp-ms": [
+        {
+          "file": "apps/tcp-ms/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/tcp-ms/.gitignore",
+          "hash": "1370426417697985197"
+        },
+        {
+          "file": "apps/tcp-ms/jest.config.ts",
+          "hash": "10180050395681262434"
+        },
+        {
+          "file": "apps/tcp-ms/prisma/schema.prisma",
+          "hash": "16610203095078093379"
+        },
+        {
+          "file": "apps/tcp-ms/project.json",
+          "hash": "8214763360312185498"
+        },
+        {
+          "file": "apps/tcp-ms/rspack.config.js",
+          "hash": "13197698510266324639"
+        },
+        {
+          "file": "apps/tcp-ms/src/app/app.module.ts",
+          "hash": "16505360485361648170"
+        },
+        {
+          "file": "apps/tcp-ms/src/app/products/dto/create-product.dto.ts",
+          "hash": "14863365852967467314"
+        },
+        {
+          "file": "apps/tcp-ms/src/app/products/dto/update-product.dto.ts",
+          "hash": "17144121848523742560"
+        },
+        {
+          "file": "apps/tcp-ms/src/app/products/entities/product.entity.ts",
+          "hash": "4068198856603415517"
+        },
+        {
+          "file": "apps/tcp-ms/src/app/products/products.controller.spec.ts",
+          "hash": "16504145279900199823"
+        },
+        {
+          "file": "apps/tcp-ms/src/app/products/products.controller.ts",
+          "hash": "17804861934820519720"
+        },
+        {
+          "file": "apps/tcp-ms/src/app/products/products.module.ts",
+          "hash": "10435776372223948272"
+        },
+        {
+          "file": "apps/tcp-ms/src/app/products/products.service.spec.ts",
+          "hash": "12078006542631247963"
+        },
+        {
+          "file": "apps/tcp-ms/src/app/products/products.service.ts",
+          "hash": "7695261487717442245"
+        },
+        {
+          "file": "apps/tcp-ms/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/tcp-ms/src/common/dto/pagination.dto.ts",
+          "hash": "11264516328280732896"
+        },
+        {
+          "file": "apps/tcp-ms/src/common/index.ts",
+          "hash": "4431058693106873794"
+        },
+        {
+          "file": "apps/tcp-ms/src/configs/envs/env.ts",
+          "hash": "3157549255387659978"
+        },
+        {
+          "file": "apps/tcp-ms/src/configs/index.ts",
+          "hash": "3108961917511154721"
+        },
+        {
+          "file": "apps/tcp-ms/src/configs/swagger-ui/swagger.ts",
+          "hash": "6080783699236680068"
+        },
+        {
+          "file": "apps/tcp-ms/src/main.ts",
+          "hash": "433475663079102042"
+        },
+        {
+          "file": "apps/tcp-ms/tsconfig.app.json",
+          "hash": "18146536384686769023"
+        },
+        {
+          "file": "apps/tcp-ms/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/tcp-ms/tsconfig.spec.json",
           "hash": "11550347367511341917"
         }
       ],

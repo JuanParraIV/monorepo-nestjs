@@ -5,7 +5,8 @@
   "scripts": {
     "serve-api": "nx serve nest-rspack",
     "serve-docs": "nx serve nest-api-doc",
-    "serve-products": "nx serve http-ms-products"
+    "serve-products": "nx serve http-ms-products",
+    "serve-tcp" : "nx serve tcp-ms"
   },
   "private": true,
   "dependencies": {

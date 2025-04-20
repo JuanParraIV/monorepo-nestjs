@@ -655469,3 +655469,823 @@
 [NX v20.8.0 Daemon Server] - 2025-04-20T01:37:02.398Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
 [NX v20.8.0 Daemon Server] - 2025-04-20T01:37:03.089Z - [WATCHER]: Processing file changes in outputs
 [NX v20.8.0 Daemon Server] - 2025-04-20T01:37:03.998Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:47:04.247Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:47:04.249Z - [WATCHER]: 13 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:47:04.250Z - Closed a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:47:04.250Z - Closed a connection. Number of open connections: 0
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:47:04.250Z - [WATCHER]: Stopping the watcher for /home/jotamario/Documents/DevOps/NestJS/monorepo-nestjs (sources)
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:47:04.250Z - [WATCHER]: Stopping the watcher for /home/jotamario/Documents/DevOps/NestJS/monorepo-nestjs (outputs)
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:47:04.252Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:41.341Z - Started listening on: /tmp/799e6eb4d9e112a48345/d.sock
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:41.343Z - [WATCHER]: Subscribed to changes within: /home/jotamario/Documents/DevOps/NestJS/monorepo-nestjs (native)
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:41.345Z - Established a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:41.346Z - Established a connection. Number of open connections: 2
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:41.349Z - Closed a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:41.352Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:41.811Z - Time taken for 'Load Nx Plugin: /home/jotamario/Documents/DevOps/NestJS/monorepo-nestjs/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 452.597126ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:41.918Z - Time taken for 'Load Nx Plugin: /home/jotamario/Documents/DevOps/NestJS/monorepo-nestjs/node_modules/nx/src/plugins/js' 561.4577859999999ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:41.948Z - Time taken for 'loadDefaultNxPlugins' 592.1699179999999ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.002Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 646.520279ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.018Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.018Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.018Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.049Z - Time taken for 'loadSpecifiedNxPlugins' 663.368023ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.059Z - Established a connection. Number of open connections: 2
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.060Z - Closed a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.061Z - Established a connection. Number of open connections: 2
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.065Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.065Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.065Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.076Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.076Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:42.076Z - Handled HASH_GLOB. Handling time: 4. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.046Z - Time taken for 'build-project-configs' 1997.557409ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.499Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.500Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.500Z - Done responding to the client project-graph
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.500Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 3149. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.500Z - Time taken for 'total for creating and serializing project graph' 3147.936182ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.508Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.508Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.508Z - Handled PRE_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.508Z - Time taken for 'preTasksExecution' 0.8104419999999664ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.545Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.545Z - Done responding to the client handleHashTasks
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.545Z - Handled HASH_TASKS. Handling time: 3. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.559Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.559Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:44.560Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 1. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T01:53:46.477Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.686Z - [WATCHER]: apps/tcp-ms/src/main.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.688Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.790Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.794Z - [REQUEST]: apps/tcp-ms/src/main.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.794Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.823Z - Time taken for 'hash changed files from watcher' 0.2934059999533929ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.833Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.834Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.835Z - Handled GLOB. Handling time: 1. Response time: 3.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.851Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.851Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.851Z - Handled HASH_GLOB. Handling time: 13. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.983Z - Time taken for 'build-project-configs' 171.12042300001485ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.995Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.996Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.996Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:45.996Z - Time taken for 'total execution time for createProjectGraph()' 10.639166000008117ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:00:46.410Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:27.908Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:27.910Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.111Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.113Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.117Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.137Z - Time taken for 'hash changed files from watcher' 0.29473299998790026ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.145Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.146Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.146Z - Handled GLOB. Handling time: 3. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.158Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.160Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.161Z - Handled HASH_GLOB. Handling time: 9. Response time: 3.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.255Z - Time taken for 'build-project-configs' 123.41177000000607ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.262Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.262Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.262Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.263Z - Time taken for 'total execution time for createProjectGraph()' 8.032039000012446ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:28.472Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.158Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.159Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.560Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.560Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.560Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.577Z - Time taken for 'hash changed files from watcher' 0.21008400002028793ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.585Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.585Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.586Z - Handled GLOB. Handling time: 7. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.595Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.595Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.595Z - Handled HASH_GLOB. Handling time: 5. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.605Z - Time taken for 'build-project-configs' 40.09174599999096ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.614Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.615Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.616Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.616Z - Time taken for 'total execution time for createProjectGraph()' 5.9531219999771565ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:29.935Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:31.465Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:31.469Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.143Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.270Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.273Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.273Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.299Z - Time taken for 'hash changed files from watcher' 0.3353810000116937ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.306Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.308Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.308Z - Handled GLOB. Handling time: 3. Response time: 2.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.325Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.326Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.327Z - Handled HASH_GLOB. Handling time: 7. Response time: 2.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.463Z - Time taken for 'build-project-configs' 182.61375700001372ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.471Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.471Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.471Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:32.472Z - Time taken for 'total execution time for createProjectGraph()' 5.700713000027463ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:35.446Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:35.447Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:35.997Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.047Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.047Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.048Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.056Z - Time taken for 'hash changed files from watcher' 0.17125299997860566ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.061Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.061Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.061Z - Handled GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.064Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.064Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.064Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.108Z - Time taken for 'build-project-configs' 56.873941000027116ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.113Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.114Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.114Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:37.114Z - Time taken for 'total execution time for createProjectGraph()' 3.903888000000734ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:39.139Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:39.142Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:39.673Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.341Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.341Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.341Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.347Z - Time taken for 'hash changed files from watcher' 0.14575999998487532ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.351Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.351Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.351Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.357Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.357Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.357Z - Handled HASH_GLOB. Handling time: 3. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.411Z - Time taken for 'build-project-configs' 65.22481100005098ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.416Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.417Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.417Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:42.418Z - Time taken for 'total execution time for createProjectGraph()' 5.635550000006333ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:45.447Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:45.448Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:45.947Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.849Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.849Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.849Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.857Z - Time taken for 'hash changed files from watcher' 0.16957700002240017ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.860Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.860Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.860Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.864Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.864Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.864Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.903Z - Time taken for 'build-project-configs' 49.685668999969494ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.908Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.909Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.909Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:51.909Z - Time taken for 'total execution time for createProjectGraph()' 5.400462999998126ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:54.319Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:54.319Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:01:55.116Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.720Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.720Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.720Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.725Z - Time taken for 'hash changed files from watcher' 0.18082100001629442ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.730Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.730Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.730Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.733Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.734Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.734Z - Handled HASH_GLOB. Handling time: 2. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.780Z - Time taken for 'build-project-configs' 54.44750000000931ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.785Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.786Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.786Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:00.787Z - Time taken for 'total execution time for createProjectGraph()' 6.014583999989554ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:17.706Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:17.709Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:18.384Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:19.899Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:19.905Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:20.626Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:22.277Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:22.278Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:23.060Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.111Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.111Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.111Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.132Z - Time taken for 'hash changed files from watcher' 0.27685399999609217ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.143Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.143Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.143Z - Handled GLOB. Handling time: 8. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.155Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.156Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.157Z - Handled HASH_GLOB. Handling time: 8. Response time: 2.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.246Z - Time taken for 'build-project-configs' 122.00709000002826ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.260Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.261Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.261Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:02:24.262Z - Time taken for 'total execution time for createProjectGraph()' 8.172703000018373ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:07.950Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:07.952Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:08.857Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:09.528Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:09.528Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:10.489Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:13.114Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:13.117Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.142Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.368Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.369Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.369Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.422Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.423Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.425Z - Handled GLOB. Handling time: 4. Response time: 3.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.426Z - Time taken for 'hash changed files from watcher' 0.30828299990389496ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.444Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.447Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.447Z - Handled HASH_GLOB. Handling time: 14. Response time: 3.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.618Z - Time taken for 'build-project-configs' 232.68406600004528ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.626Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.627Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.629Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:14.630Z - Time taken for 'total execution time for createProjectGraph()' 12.64692699990701ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:15.998Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:16.003Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:16.793Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:20.599Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:20.599Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:21.418Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.404Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.405Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.405Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.423Z - Time taken for 'hash changed files from watcher' 0.40480500005651265ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.430Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.431Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.431Z - Handled GLOB. Handling time: 4. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.442Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.445Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.445Z - Handled HASH_GLOB. Handling time: 8. Response time: 3.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.500Z - Time taken for 'build-project-configs' 82.99497700005304ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.514Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.515Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.516Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:22.516Z - Time taken for 'total execution time for createProjectGraph()' 7.0409160000272095ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:37.443Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:37.448Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:38.325Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:40.551Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:40.554Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:41.545Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:43.851Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:43.853Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:43.855Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:43.875Z - Time taken for 'hash changed files from watcher' 0.2503840000135824ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:43.888Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:43.889Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:43.889Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:43.895Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:43.896Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:43.896Z - Handled HASH_GLOB. Handling time: 4. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:44.032Z - Time taken for 'build-project-configs' 170.4873849999858ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:44.045Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:44.046Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:44.046Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:44.046Z - Time taken for 'total execution time for createProjectGraph()' 7.579538999940269ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:53.971Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:53.973Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:54.767Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:55.924Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:55.925Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:03:56.891Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.374Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.377Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.377Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.399Z - Time taken for 'hash changed files from watcher' 0.2670759999891743ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.409Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.410Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.412Z - Handled GLOB. Handling time: 5. Response time: 3.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.419Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.420Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.421Z - Handled HASH_GLOB. Handling time: 5. Response time: 2.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.505Z - Time taken for 'build-project-configs' 109.33159900002647ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.518Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.520Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.521Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.522Z - Time taken for 'total execution time for createProjectGraph()' 13.533016999950632ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.961Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:00.961Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:01.898Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:03.149Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:03.150Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:04.335Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.362Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.362Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.362Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.367Z - Time taken for 'hash changed files from watcher' 0.25757799996063113ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.374Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.374Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.374Z - Handled GLOB. Handling time: 3. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.378Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.378Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.378Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.431Z - Time taken for 'build-project-configs' 64.1292610000819ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.438Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.439Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.440Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:07.441Z - Time taken for 'total execution time for createProjectGraph()' 5.044203000026755ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:45.706Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:45.707Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:46.537Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:47.569Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:47.574Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:48.421Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.107Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.109Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.109Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.117Z - Time taken for 'hash changed files from watcher' 0.28383800003211945ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.122Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.122Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.122Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.127Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.128Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.128Z - Handled HASH_GLOB. Handling time: 3. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.183Z - Time taken for 'build-project-configs' 69.48895899998024ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.189Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.190Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.190Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:04:52.190Z - Time taken for 'total execution time for createProjectGraph()' 4.728518000105396ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:23.561Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:23.573Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:24.314Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:29.975Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:29.976Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:29.976Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:29.984Z - Time taken for 'hash changed files from watcher' 0.26532999996561557ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:29.993Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:29.993Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:29.993Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:29.996Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:29.996Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:29.996Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:30.060Z - Time taken for 'build-project-configs' 74.48037699994165ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:30.065Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:30.066Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:30.066Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:30.066Z - Time taken for 'total execution time for createProjectGraph()' 8.849411999923177ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:38.839Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:38.840Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:39.795Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.241Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.242Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.242Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.252Z - Time taken for 'hash changed files from watcher' 0.24528599996119738ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.256Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.256Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.256Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.262Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.262Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.262Z - Handled HASH_GLOB. Handling time: 4. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.313Z - Time taken for 'build-project-configs' 63.28601999999955ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.322Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.323Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.324Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:05:45.324Z - Time taken for 'total execution time for createProjectGraph()' 5.598194000078365ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:18.586Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:18.590Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:19.371Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:22.199Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:22.200Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:23.034Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:24.992Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:24.993Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:24.993Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.010Z - Time taken for 'hash changed files from watcher' 1.7619069999782369ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.019Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.019Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.021Z - Handled GLOB. Handling time: 4. Response time: 2.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.029Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.032Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.032Z - Handled HASH_GLOB. Handling time: 6. Response time: 3.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.108Z - Time taken for 'build-project-configs' 105.14520299993455ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.114Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.115Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.115Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:06:25.116Z - Time taken for 'total execution time for createProjectGraph()' 4.842223000014201ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:42.400Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:42.401Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:42.995Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:45.367Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:45.369Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:45.998Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.802Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.802Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.803Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.809Z - Time taken for 'hash changed files from watcher' 0.3638079999946058ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.812Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.812Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.813Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.815Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.815Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.816Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.850Z - Time taken for 'build-project-configs' 43.44159800000489ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.855Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.855Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.856Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:07:48.856Z - Time taken for 'total execution time for createProjectGraph()' 4.635492000030354ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:04.993Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:04.995Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:05.566Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:07.312Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:07.313Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:07.877Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:09.676Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:09.677Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:10.147Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.396Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.396Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.396Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.405Z - Time taken for 'hash changed files from watcher' 0.20631400006823242ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.408Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.409Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.409Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.412Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.412Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.412Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.460Z - Time taken for 'build-project-configs' 53.29898200009484ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.463Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.464Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.464Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.464Z - Time taken for 'total execution time for createProjectGraph()' 8.409971999935806ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.891Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:11.892Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:12.393Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:14.402Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:14.406Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:14.977Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.292Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.292Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.292Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.300Z - Time taken for 'hash changed files from watcher' 0.1639189999550581ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.306Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.306Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.306Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.310Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.310Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.311Z - Handled HASH_GLOB. Handling time: 2. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.354Z - Time taken for 'build-project-configs' 56.36631000007037ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.358Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.359Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.359Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.359Z - Time taken for 'total execution time for createProjectGraph()' 5.084996999939904ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.948Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:18.950Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:19.484Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:21.242Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:21.243Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:21.698Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.351Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.351Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.351Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.359Z - Time taken for 'hash changed files from watcher' 0.20694200007710606ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.364Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.365Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.365Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.367Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.368Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.368Z - Handled HASH_GLOB. Handling time: 2. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.405Z - Time taken for 'build-project-configs' 48.34082100004889ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.408Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.409Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.409Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.409Z - Time taken for 'total execution time for createProjectGraph()' 3.5312189999967813ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.565Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:25.567Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:26.115Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:27.322Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:27.322Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:27.808Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:28.954Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:28.955Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:29.474Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:30.438Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:30.440Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:31.042Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:31.971Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:31.971Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:31.971Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:31.977Z - Time taken for 'hash changed files from watcher' 0.19024999998509884ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:31.980Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:31.981Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:31.981Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:31.983Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:31.983Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:31.983Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:32.033Z - Time taken for 'build-project-configs' 49.15092100005131ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:32.046Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:32.047Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:32.047Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:32.048Z - Time taken for 'total execution time for createProjectGraph()' 13.926384000107646ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:35.780Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:35.783Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:36.400Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:40.266Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:40.267Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:40.825Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.180Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.180Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.180Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.187Z - Time taken for 'hash changed files from watcher' 0.15113799995742738ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.191Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.191Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.191Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.195Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.195Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.195Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.235Z - Time taken for 'build-project-configs' 50.190173999988474ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.241Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.241Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.242Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:42.242Z - Time taken for 'total execution time for createProjectGraph()' 5.485751000000164ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:45.737Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:45.738Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:46.225Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:51.971Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:51.971Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.137Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.138Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.138Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.153Z - Time taken for 'hash changed files from watcher' 0.24032700003590435ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.156Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.159Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.160Z - Handled GLOB. Handling time: 1. Response time: 4.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.172Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.175Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.175Z - Handled HASH_GLOB. Handling time: 9. Response time: 3.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.245Z - Time taken for 'build-project-configs' 100.24345999991056ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.253Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.254Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.254Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.254Z - Time taken for 'total execution time for createProjectGraph()' 7.330562000046484ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:52.594Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:55.513Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:55.515Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:56.122Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:57.493Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:57.494Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:58.227Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:59.997Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:08:59.997Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:00.662Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:01.917Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:01.917Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:01.917Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:01.924Z - Time taken for 'hash changed files from watcher' 0.23082799999974668ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:01.932Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:01.936Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:01.936Z - Handled GLOB. Handling time: 1. Response time: 4.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:01.945Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:01.948Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:01.949Z - Handled HASH_GLOB. Handling time: 8. Response time: 4.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:02.056Z - Time taken for 'build-project-configs' 122.47708400001284ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:02.071Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:02.073Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:02.076Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:02.076Z - Time taken for 'total execution time for createProjectGraph()' 18.729151000035927ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:02.592Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:02.593Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:03.198Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:05.013Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:05.014Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:05.590Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:08.994Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:08.995Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:08.995Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.002Z - Time taken for 'hash changed files from watcher' 0.18124000006355345ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.005Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.005Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.005Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.009Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.009Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.010Z - Handled HASH_GLOB. Handling time: 3. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.050Z - Time taken for 'build-project-configs' 50.96926699997857ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.057Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.058Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.058Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:09.058Z - Time taken for 'total execution time for createProjectGraph()' 5.067815999966115ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:14.697Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:14.698Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:15.378Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:18.493Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:18.495Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:19.095Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.098Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.098Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.098Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.110Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.111Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.111Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.111Z - Time taken for 'hash changed files from watcher' 0.19234499998856336ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.115Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.116Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.116Z - Handled HASH_GLOB. Handling time: 3. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.157Z - Time taken for 'build-project-configs' 53.9816320000682ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.161Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.162Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.163Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.163Z - Time taken for 'total execution time for createProjectGraph()' 3.8712110000196844ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.493Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:21.495Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:22.177Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:27.896Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:27.899Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:27.900Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:27.933Z - Time taken for 'hash changed files from watcher' 0.25234000000637025ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:27.942Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:27.945Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:27.946Z - Handled GLOB. Handling time: 2. Response time: 4.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:27.958Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:27.959Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:27.959Z - Handled HASH_GLOB. Handling time: 7. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:28.045Z - Time taken for 'build-project-configs' 128.4050869999919ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:28.050Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:28.051Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:28.052Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:28.052Z - Time taken for 'total execution time for createProjectGraph()' 4.1133540000300854ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:42.245Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:42.251Z - [WATCHER]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:43.352Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.653Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.654Z - [REQUEST]: apps/tcp-ms/src/app/products/dto/update-product.dto.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.654Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.662Z - Time taken for 'hash changed files from watcher' 0.20568500005174428ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.667Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.667Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.667Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.673Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.675Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.675Z - Handled HASH_GLOB. Handling time: 3. Response time: 2.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.729Z - Time taken for 'build-project-configs' 70.50105300010182ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.741Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.741Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.742Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:09:48.742Z - Time taken for 'total execution time for createProjectGraph()' 6.190181000041775ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:10.354Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:10.356Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:10.922Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.755Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.755Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.755Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.760Z - Time taken for 'hash changed files from watcher' 0.13933599996380508ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.764Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.764Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.764Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.766Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.767Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.767Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.806Z - Time taken for 'build-project-configs' 48.97828699997626ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.810Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.810Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.810Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:16.810Z - Time taken for 'total execution time for createProjectGraph()' 2.4131869999691844ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:54.898Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:54.898Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:55.495Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:56.846Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:56.848Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:57.477Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:59.162Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:59.163Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:10:59.689Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.298Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.299Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.299Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.303Z - Time taken for 'hash changed files from watcher' 0.14017299993429333ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.307Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.308Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.308Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.311Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.311Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.311Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.348Z - Time taken for 'build-project-configs' 46.885403000051156ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.352Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.352Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.352Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.353Z - Time taken for 'total execution time for createProjectGraph()' 2.6638500000117347ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.823Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:01.824Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:03.368Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:03.368Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:03.887Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.224Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.224Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.224Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.231Z - Time taken for 'hash changed files from watcher' 0.17418700002599508ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.236Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.236Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.236Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.245Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.245Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.245Z - Handled HASH_GLOB. Handling time: 7. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.313Z - Time taken for 'build-project-configs' 84.60737300000619ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.323Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.324Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.325Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:08.326Z - Time taken for 'total execution time for createProjectGraph()' 6.0486820000223815ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:09.298Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:09.298Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:09.816Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.698Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.699Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.699Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.705Z - Time taken for 'hash changed files from watcher' 0.1957680000923574ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.708Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.708Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.709Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.712Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.712Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.712Z - Handled HASH_GLOB. Handling time: 3. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.751Z - Time taken for 'build-project-configs' 47.91110599995591ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.756Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.756Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.757Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:11:15.757Z - Time taken for 'total execution time for createProjectGraph()' 4.723217000020668ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:32.578Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:32.579Z - [WATCHER]: apps/tcp-ms/src/app/products/products.service.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:33.182Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:38.981Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:38.981Z - [REQUEST]: apps/tcp-ms/src/app/products/products.service.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:38.981Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:38.988Z - Time taken for 'hash changed files from watcher' 0.2177679999731481ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:38.990Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:38.990Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:38.990Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:38.993Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:38.993Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:38.994Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:39.027Z - Time taken for 'build-project-configs' 42.599965000059456ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:39.032Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:39.032Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:39.032Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:39.032Z - Time taken for 'total execution time for createProjectGraph()' 4.046236999798566ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:52.357Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:52.359Z - [WATCHER]: apps/tcp-ms/src/app/products/products.service.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:52.420Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:54.595Z - [WATCHER]: apps/tcp-ms/src/app/products/products.service.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:54.595Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:55.233Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.761Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.761Z - [REQUEST]: apps/tcp-ms/src/app/products/products.service.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.762Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.775Z - Time taken for 'hash changed files from watcher' 0.20540600013919175ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.780Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.781Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.781Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.786Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.786Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.787Z - Handled HASH_GLOB. Handling time: 4. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.834Z - Time taken for 'build-project-configs' 65.00778799992986ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.840Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.841Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.842Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:12:58.842Z - Time taken for 'total execution time for createProjectGraph()' 5.973532999865711ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:00.239Z - [WATCHER]: apps/tcp-ms/src/app/products/products.service.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:00.240Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:00.289Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:02.922Z - [WATCHER]: apps/tcp-ms/src/app/products/products.service.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:02.922Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:03.676Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:04.186Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:04.189Z - [WATCHER]: apps/tcp-ms/src/app/products/products.service.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:05.034Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.641Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.641Z - [REQUEST]: apps/tcp-ms/src/app/products/products.service.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.641Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.648Z - Time taken for 'hash changed files from watcher' 0.22565999999642372ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.652Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.652Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.652Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.665Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.665Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.665Z - Handled HASH_GLOB. Handling time: 12. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.705Z - Time taken for 'build-project-configs' 61.00317699997686ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.708Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.709Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.709Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:13:06.709Z - Time taken for 'total execution time for createProjectGraph()' 2.7837010000366718ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:06.633Z - [WATCHER]: apps/tcp-ms/src/app/products/products.controller.ts was modified
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:06.634Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:07.602Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.034Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.034Z - [REQUEST]: apps/tcp-ms/src/app/products/products.controller.ts
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.034Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.040Z - Time taken for 'hash changed files from watcher' 0.17642199993133545ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.045Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.047Z - Done responding to the client handleGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.048Z - Handled GLOB. Handling time: 2. Response time: 3.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.051Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.051Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.051Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.093Z - Time taken for 'build-project-configs' 55.447521999944ms
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.107Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.107Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.108Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-20T02:15:13.108Z - Time taken for 'total execution time for createProjectGraph()' 13.472771999891847ms
