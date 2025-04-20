@@ -1,15 +1,15 @@
 {
   "nodes": {
-    "prisma-client-a7ce614d4f2a0bd78cae11ec25865f51f7940d8103e754f7f3edb9ab583146b8": {
-      "name": "prisma-client-a7ce614d4f2a0bd78cae11ec25865f51f7940d8103e754f7f3edb9ab583146b8",
-      "type": "lib",
+    "http-ms-products": {
+      "name": "http-ms-products",
+      "type": "app",
       "data": {
-        "root": "apps/products/generated/products-prisma",
+        "root": "apps/http-ms-products",
         "targets": {
           "eslint:lint": {
             "cache": true,
             "options": {
-              "cwd": "apps/products/generated/products-prisma",
+              "cwd": "apps/http-ms-products",
               "env": {
                 "ESLINT_USE_FLAT_CONFIG": "false"
               },
@@ -19,7 +19,7 @@
               "default",
               "^default",
               "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/apps/products/.eslintrc.json",
+              "{projectRoot}/.eslintrc.json",
               "{workspaceRoot}/tools/eslint-rules/**/*",
               {
                 "externalDependencies": [
@@ -47,11 +47,104 @@
             "executor": "nx:run-commands",
             "configurations": {},
             "parallelism": true
+          },
+          "build": {
+            "executor": "@nx/rspack:rspack",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "defaultConfiguration": "production",
+            "options": {
+              "target": "node",
+              "outputPath": "dist/apps/http-ms-products",
+              "main": "apps/http-ms-products/src/main.ts",
+              "tsConfig": "apps/http-ms-products/tsconfig.app.json",
+              "rspackConfig": "apps/http-ms-products/rspack.config.js",
+              "assets": [
+                "apps/http-ms-products/src/assets"
+              ]
+            },
+            "configurations": {
+              "development": {
+                "mode": "development"
+              },
+              "production": {
+                "mode": "production",
+                "sourceMap": false
+              }
+            },
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "production",
+              "^production"
+            ]
+          },
+          "serve": {
+            "executor": "@nx/js:node",
+            "defaultConfiguration": "development",
+            "options": {
+              "buildTarget": "http-ms-products:build"
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "http-ms-products:build:development"
+              },
+              "production": {
+                "buildTarget": "http-ms-products:build:production"
+              }
+            },
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/linter:eslint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "apps/http-ms-products/**/*.ts"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore"
+            ]
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/http-ms-products/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            },
+            "parallelism": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ]
           }
         },
-        "name": "prisma-client-a7ce614d4f2a0bd78cae11ec25865f51f7940d8103e754f7f3edb9ab583146b8",
-        "implicitDependencies": [],
-        "tags": []
+        "name": "http-ms-products",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/http-ms-products/src",
+        "projectType": "application",
+        "tags": [],
+        "implicitDependencies": []
       }
     },
     "nest-api-doc": {
@@ -344,169 +437,15 @@
         "tags": [],
         "implicitDependencies": []
       }
-    },
-    "products": {
-      "name": "products",
-      "type": "app",
-      "data": {
-        "root": "apps/products",
-        "targets": {
-          "eslint:lint": {
-            "cache": true,
-            "options": {
-              "cwd": "apps/products",
-              "env": {
-                "ESLINT_USE_FLAT_CONFIG": "false"
-              },
-              "command": "eslint ."
-            },
-            "inputs": [
-              "default",
-              "^default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{projectRoot}/.eslintrc.json",
-              "{workspaceRoot}/tools/eslint-rules/**/*",
-              {
-                "externalDependencies": [
-                  "eslint"
-                ]
-              }
-            ],
-            "outputs": [
-              "{options.outputFile}"
-            ],
-            "metadata": {
-              "technologies": [
-                "eslint"
-              ],
-              "description": "Runs ESLint on project",
-              "help": {
-                "command": "bun eslint --help",
-                "example": {
-                  "options": {
-                    "max-warnings": 0
-                  }
-                }
-              }
-            },
-            "executor": "nx:run-commands",
-            "configurations": {},
-            "parallelism": true
-          },
-          "build": {
-            "executor": "@nx/rspack:rspack",
-            "outputs": [
-              "{options.outputPath}"
-            ],
-            "defaultConfiguration": "production",
-            "options": {
-              "target": "node",
-              "outputPath": "dist/apps/products",
-              "main": "apps/products/src/main.ts",
-              "tsConfig": "apps/products/tsconfig.app.json",
-              "rspackConfig": "apps/products/rspack.config.js",
-              "assets": [
-                "apps/products/src/assets"
-              ]
-            },
-            "configurations": {
-              "development": {
-                "mode": "development"
-              },
-              "production": {
-                "mode": "production",
-                "sourceMap": false
-              }
-            },
-            "parallelism": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ]
-          },
-          "serve": {
-            "executor": "@nx/js:node",
-            "defaultConfiguration": "development",
-            "options": {
-              "buildTarget": "products:build"
-            },
-            "configurations": {
-              "development": {
-                "buildTarget": "products:build:development"
-              },
-              "production": {
-                "buildTarget": "products:build:production"
-              }
-            },
-            "parallelism": true
-          },
-          "lint": {
-            "executor": "@nx/linter:eslint",
-            "outputs": [
-              "{options.outputFile}"
-            ],
-            "options": {
-              "lintFilePatterns": [
-                "apps/products/**/*.ts"
-              ]
-            },
-            "configurations": {},
-            "parallelism": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/.eslintignore"
-            ]
-          },
-          "test": {
-            "executor": "@nx/jest:jest",
-            "outputs": [
-              "{workspaceRoot}/coverage/{projectRoot}"
-            ],
-            "options": {
-              "jestConfig": "apps/products/jest.config.ts",
-              "passWithNoTests": true
-            },
-            "configurations": {
-              "ci": {
-                "ci": true,
-                "codeCoverage": true
-              }
-            },
-            "parallelism": true,
-            "inputs": [
-              "default",
-              "^production",
-              "{workspaceRoot}/jest.preset.js"
-            ]
-          }
-        },
-        "name": "products",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/products/src",
-        "projectType": "application",
-        "tags": [],
-        "implicitDependencies": []
-      }
     }
   },
   "externalNodes": {},
   "dependencies": {
-    "prisma-client-a7ce614d4f2a0bd78cae11ec25865f51f7940d8103e754f7f3edb9ab583146b8": [],
+    "http-ms-products": [],
     "nest-api-doc": [],
-    "nest-rspack": [],
-    "products": [
-      {
-        "source": "products",
-        "target": "prisma-client-a7ce614d4f2a0bd78cae11ec25865f51f7940d8103e754f7f3edb9ab583146b8",
-        "type": "static"
-      }
-    ]
+    "nest-rspack": []
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1745097798209
+  "computedAt": 1745112631289
 }

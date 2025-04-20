@@ -23,11 +23,6 @@ help:
 	@echo "  format          Format all code with Prettier"
 	@echo "  upgrade         Upgrade all dependencies (bun)"
 	@echo "  ci              Run lint, test, and build (for CI/CD)"
-  @echo "  postgres        Start Postgres container"
-  @echo "  postgresdown    Stop and remove Postgres container"
-  @echo "  createdb        Create micro_db database in Postgres container"
-  @echo "  dropdb          Drop micro_db database in Postgres container"
-
 install:
 	$(BUN) install
 
@@ -85,11 +80,4 @@ dropdb:
 	$(DOCKER) exec -it microdb dropdb micro_db
 	@echo "Database micro_db dropped"
 
-prismaup:
-  $(BUN) run prisma migrate dev --name init
-  @echo "Prisma migration applied"
-
-prismadown:
-  $(BUN) run prisma migrate reset --force
-  @echo "Prisma migration reset"
 ci: lint test build

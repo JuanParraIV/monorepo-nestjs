@@ -5,12 +5,13 @@
   "scripts": {
     "serve-api": "nx serve nest-rspack",
     "serve-docs": "nx serve nest-api-doc",
-    "serve-products": "nx serve products"
+    "serve-products": "nx serve http-ms-products"
   },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^11.0.20",
     "@nestjs/core": "^11.0.20",
+    "@nestjs/microservices": "^11.0.20",
     "@nestjs/platform-express": "^11.0.20",
     "@nestjs/swagger": "^11.1.4",
     "@prisma/client": "^6.6.0",

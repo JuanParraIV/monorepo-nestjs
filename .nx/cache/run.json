@@ -1,21 +1,21 @@
 {
   "run": {
-    "command": "nx serve prueba",
-    "startTime": "2025-04-19T00:46:12.088Z",
-    "endTime": "2025-04-19T00:46:12.735Z",
+    "command": "nx serve products",
+    "startTime": "2025-04-20T01:24:51.222Z",
+    "endTime": "2025-04-20T01:26:42.812Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "prueba:build",
-      "target": "build",
-      "projectName": "prueba",
-      "hash": "1586084833363889072",
-      "startTime": "2025-04-19T00:46:12.102Z",
-      "endTime": "2025-04-19T00:46:12.733Z",
+      "taskId": "products:serve:development",
+      "target": "serve",
+      "projectName": "products",
+      "hash": "10620256145586096317",
+      "startTime": "2025-04-20T01:24:51.232Z",
+      "endTime": "2025-04-20T01:26:42.809Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 1
+      "status": 0
     }
   ]
 }
