@@ -1,294 +1,4 @@
 {
-  "apps/client-gateway": {
-    "root": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.cache": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.inputs": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.outputs": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.executor": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.cwd": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.env": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.command": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies.0": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.description": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.command": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.example": [
-      "apps/client-gateway/.eslintrc.json",
-      "@nx/eslint/plugin"
-    ],
-    "name": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.executor": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.outputs": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.defaultConfiguration": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.target": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.outputPath": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.main": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.tsConfig": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.rspackConfig": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.assets": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development.mode": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production.mode": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production.sourceMap": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.executor": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.defaultConfiguration": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options.buildTarget": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.development": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.development.buildTarget": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production.buildTarget": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.executor": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.outputs": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.options": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.options.lintFilePatterns": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.executor": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.outputs": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.configurations": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options.jestConfig": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options.passWithNoTests": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.configurations.ci": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.configurations.ci.ci": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.configurations.ci.codeCoverage": [
-      "apps/client-gateway/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.dependsOn": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ]
-  },
   "apps/http-ms-products": {
     "root": [
       "apps/http-ms-products/project.json",
@@ -1445,6 +1155,296 @@
       "nx/target-defaults"
     ]
   },
+  "apps/tcp-ms-orders": {
+    "root": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.env": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "apps/tcp-ms-orders/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.target": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.rspackConfig": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.mode": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.mode": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "apps/tcp-ms-orders/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
   "apps/tcp-ms-products": {
     "root": [
       "apps/tcp-ms-products/project.json",
@@ -1704,6 +1704,296 @@
     ],
     "targets.test.configurations.ci.codeCoverage": [
       "apps/tcp-ms-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/client-gateway": {
+    "root": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.env": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "apps/client-gateway/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.target": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.rspackConfig": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.mode": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.mode": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "apps/client-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "apps/client-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.build.dependsOn": [

@@ -23,83 +23,169 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
       },
       {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
+        "file": "package.json",
+        "hash": "1874861174166536770"
       },
       {
         "file": ".eslintrc.json",
         "hash": "18315524891129148814"
       },
       {
-        "file": ".gitignore",
-        "hash": "3171816815418232237"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "8865097869854018350"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "235626400633494639"
-      },
-      {
-        "file": "Makefile",
-        "hash": "2923950034825035792"
-      },
-      {
-        "file": "README.md",
-        "hash": "1513932689567033943"
-      },
-      {
-        "file": "apps/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "babel.config.json",
-        "hash": "5546405625092116747"
-      },
-      {
-        "file": "bun.lock",
-        "hash": "1879758570214127060"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "libs/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "nx.json",
-        "hash": "9682494175289310015"
-      },
-      {
-        "file": "package.json",
-        "hash": "1008316016696566594"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
         "file": "tools/tsconfig.tools.json",
         "hash": "16088922570277978783"
       },
       {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "bun.lock",
+        "hash": "9713940907570635266"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "8865097869854018350"
+      },
+      {
+        "file": "README.md",
+        "hash": "1513932689567033943"
+      },
+      {
+        "file": "nx.json",
+        "hash": "9682494175289310015"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3171816815418232237"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "Makefile",
+        "hash": "17715560023707859669"
+      },
+      {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
+      },
+      {
+        "file": "babel.config.json",
+        "hash": "5546405625092116747"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "235626400633494639"
       }
     ],
     "projectFileMap": {
+      "nest-rspack": [
+        {
+          "file": "apps/nest-rspack/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/nest-rspack/.gitignore",
+          "hash": "1370426417697985197"
+        },
+        {
+          "file": "apps/nest-rspack/jest.config.ts",
+          "hash": "13477311757523212276"
+        },
+        {
+          "file": "apps/nest-rspack/project.json",
+          "hash": "12226847186432306477"
+        },
+        {
+          "file": "apps/nest-rspack/rspack.config.js",
+          "hash": "13197698510266324639"
+        },
+        {
+          "file": "apps/nest-rspack/src/app/app.controller.spec.ts",
+          "hash": "9499997688052526633"
+        },
+        {
+          "file": "apps/nest-rspack/src/app/app.controller.ts",
+          "hash": "9005150069945785676"
+        },
+        {
+          "file": "apps/nest-rspack/src/app/app.module.ts",
+          "hash": "3163250445227373966"
+        },
+        {
+          "file": "apps/nest-rspack/src/app/app.service.spec.ts",
+          "hash": "8587461140686713758"
+        },
+        {
+          "file": "apps/nest-rspack/src/app/app.service.ts",
+          "hash": "9967902337593410053"
+        },
+        {
+          "file": "apps/nest-rspack/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/nest-rspack/src/common/decorators/pagination.decorator.ts",
+          "hash": "5761640625907991086"
+        },
+        {
+          "file": "apps/nest-rspack/src/common/dto/pagination.dto.ts",
+          "hash": "11264516328280732896"
+        },
+        {
+          "file": "apps/nest-rspack/src/common/index.ts",
+          "hash": "4431058693106873794"
+        },
+        {
+          "file": "apps/nest-rspack/src/configs/envs/env.ts",
+          "hash": "16557858982327129794"
+        },
+        {
+          "file": "apps/nest-rspack/src/configs/index.ts",
+          "hash": "3108961917511154721"
+        },
+        {
+          "file": "apps/nest-rspack/src/configs/swagger-ui/swagger.ts",
+          "hash": "6080783699236680068"
+        },
+        {
+          "file": "apps/nest-rspack/src/main.ts",
+          "hash": "10684599659242972884"
+        },
+        {
+          "file": "apps/nest-rspack/tsconfig.app.json",
+          "hash": "18146536384686769023"
+        },
+        {
+          "file": "apps/nest-rspack/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/nest-rspack/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
       "tcp-ms-products": [
         {
           "file": "apps/tcp-ms-products/.eslintrc.json",
@@ -199,6 +285,120 @@
         },
         {
           "file": "apps/tcp-ms-products/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
+      "client-gateway": [
+        {
+          "file": "apps/client-gateway/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/client-gateway/.gitignore",
+          "hash": "1370426417697985197"
+        },
+        {
+          "file": "apps/client-gateway/jest.config.ts",
+          "hash": "12067296275598524485"
+        },
+        {
+          "file": "apps/client-gateway/project.json",
+          "hash": "8027594863880025578"
+        },
+        {
+          "file": "apps/client-gateway/rspack.config.js",
+          "hash": "13197698510266324639"
+        },
+        {
+          "file": "apps/client-gateway/src/app/app.module.ts",
+          "hash": "11733593519331280602"
+        },
+        {
+          "file": "apps/client-gateway/src/app/orders-ms/orders.controller.ts",
+          "hash": "9528301720712030079"
+        },
+        {
+          "file": "apps/client-gateway/src/app/orders-ms/orders.module.ts",
+          "hash": "17967672859539258936"
+        },
+        {
+          "file": "apps/client-gateway/src/app/products-ms/products.controller.ts",
+          "hash": "17752827749012332301"
+        },
+        {
+          "file": "apps/client-gateway/src/app/products-ms/products.module.ts",
+          "hash": "5447005067347830173"
+        },
+        {
+          "file": "apps/client-gateway/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/client-gateway/src/common/decorators/pagination.decorator.ts",
+          "hash": "10418453682650764130"
+        },
+        {
+          "file": "apps/client-gateway/src/common/dto/create-order.dto.ts",
+          "hash": "7773666049424069741"
+        },
+        {
+          "file": "apps/client-gateway/src/common/dto/create-product.dto.ts",
+          "hash": "14863365852967467314"
+        },
+        {
+          "file": "apps/client-gateway/src/common/dto/index.ts",
+          "hash": "3117306107746321831"
+        },
+        {
+          "file": "apps/client-gateway/src/common/dto/pagination.dto.ts",
+          "hash": "11264516328280732896"
+        },
+        {
+          "file": "apps/client-gateway/src/common/dto/update-order.dto.ts",
+          "hash": "6980195094955445981"
+        },
+        {
+          "file": "apps/client-gateway/src/common/dto/update-product.dto.ts",
+          "hash": "17824104607065304145"
+        },
+        {
+          "file": "apps/client-gateway/src/common/exceptions/rpc-custom-exception.filter.ts",
+          "hash": "1541132334620078398"
+        },
+        {
+          "file": "apps/client-gateway/src/common/index.ts",
+          "hash": "12894808687590894210"
+        },
+        {
+          "file": "apps/client-gateway/src/configs/constants/clientModules.ts",
+          "hash": "14368441036989328087"
+        },
+        {
+          "file": "apps/client-gateway/src/configs/envs/env.ts",
+          "hash": "5662026785655858975"
+        },
+        {
+          "file": "apps/client-gateway/src/configs/index.ts",
+          "hash": "17715918372032145750"
+        },
+        {
+          "file": "apps/client-gateway/src/configs/swagger-ui/swagger.ts",
+          "hash": "6080783699236680068"
+        },
+        {
+          "file": "apps/client-gateway/src/main.ts",
+          "hash": "872195013278032460"
+        },
+        {
+          "file": "apps/client-gateway/tsconfig.app.json",
+          "hash": "18146536384686769023"
+        },
+        {
+          "file": "apps/client-gateway/tsconfig.json",
+          "hash": "9035462369953600829"
+        },
+        {
+          "file": "apps/client-gateway/tsconfig.spec.json",
           "hash": "11550347367511341917"
         }
       ],
@@ -504,183 +704,105 @@
           "hash": "11550347367511341917"
         }
       ],
-      "client-gateway": [
+      "tcp-ms-orders": [
         {
-          "file": "apps/client-gateway/.eslintrc.json",
+          "file": "apps/tcp-ms-orders/.eslintrc.json",
           "hash": "13800677001662881425"
         },
         {
-          "file": "apps/client-gateway/.gitignore",
+          "file": "apps/tcp-ms-orders/.gitignore",
           "hash": "1370426417697985197"
         },
         {
-          "file": "apps/client-gateway/jest.config.ts",
-          "hash": "12067296275598524485"
+          "file": "apps/tcp-ms-orders/jest.config.ts",
+          "hash": "14824536650287336300"
         },
         {
-          "file": "apps/client-gateway/project.json",
-          "hash": "8027594863880025578"
+          "file": "apps/tcp-ms-orders/prisma/schema.prisma",
+          "hash": "16610203095078093379"
         },
         {
-          "file": "apps/client-gateway/rspack.config.js",
+          "file": "apps/tcp-ms-orders/project.json",
+          "hash": "13116079204339609820"
+        },
+        {
+          "file": "apps/tcp-ms-orders/rspack.config.js",
           "hash": "13197698510266324639"
         },
         {
-          "file": "apps/client-gateway/src/app/app.module.ts",
-          "hash": "3449529315226711899"
+          "file": "apps/tcp-ms-orders/src/app/app.module.ts",
+          "hash": "17703711279428890572"
         },
         {
-          "file": "apps/client-gateway/src/app/products-ms/products.controller.ts",
-          "hash": "17752827749012332301"
+          "file": "apps/tcp-ms-orders/src/app/orders/dto/create-order.dto.ts",
+          "hash": "7773666049424069741"
         },
         {
-          "file": "apps/client-gateway/src/app/products-ms/products.module.ts",
-          "hash": "15275080400860498575"
+          "file": "apps/tcp-ms-orders/src/app/orders/dto/update-order.dto.ts",
+          "hash": "6980195094955445981"
         },
         {
-          "file": "apps/client-gateway/src/assets/.gitkeep",
+          "file": "apps/tcp-ms-orders/src/app/orders/entities/order.entity.ts",
+          "hash": "13316008351691905785"
+        },
+        {
+          "file": "apps/tcp-ms-orders/src/app/orders/orders.controller.spec.ts",
+          "hash": "999713935975214639"
+        },
+        {
+          "file": "apps/tcp-ms-orders/src/app/orders/orders.controller.ts",
+          "hash": "1608353793608188462"
+        },
+        {
+          "file": "apps/tcp-ms-orders/src/app/orders/orders.module.ts",
+          "hash": "8363495821312153805"
+        },
+        {
+          "file": "apps/tcp-ms-orders/src/app/orders/orders.service.spec.ts",
+          "hash": "6048108024324061892"
+        },
+        {
+          "file": "apps/tcp-ms-orders/src/app/orders/orders.service.ts",
+          "hash": "7840462432298086348"
+        },
+        {
+          "file": "apps/tcp-ms-orders/src/assets/.gitkeep",
           "hash": "3244421341483603138"
         },
         {
-          "file": "apps/client-gateway/src/common/decorators/pagination.decorator.ts",
-          "hash": "10418453682650764130"
+          "file": "apps/tcp-ms-orders/src/common/dto/pagination.dto.ts",
+          "hash": "1932831843294184493"
         },
         {
-          "file": "apps/client-gateway/src/common/dto/create-product.dto.ts",
-          "hash": "14863365852967467314"
-        },
-        {
-          "file": "apps/client-gateway/src/common/dto/pagination.dto.ts",
-          "hash": "11264516328280732896"
-        },
-        {
-          "file": "apps/client-gateway/src/common/dto/update-product.dto.ts",
-          "hash": "17824104607065304145"
-        },
-        {
-          "file": "apps/client-gateway/src/common/exceptions/rpc-custom-exception.filter.ts",
-          "hash": "1541132334620078398"
-        },
-        {
-          "file": "apps/client-gateway/src/common/index.ts",
-          "hash": "13940577248726195054"
-        },
-        {
-          "file": "apps/client-gateway/src/configs/constants/clientModules.ts",
-          "hash": "6534703302861695464"
-        },
-        {
-          "file": "apps/client-gateway/src/configs/envs/env.ts",
-          "hash": "12380786745709640351"
-        },
-        {
-          "file": "apps/client-gateway/src/configs/index.ts",
-          "hash": "17715918372032145750"
-        },
-        {
-          "file": "apps/client-gateway/src/configs/swagger-ui/swagger.ts",
-          "hash": "6080783699236680068"
-        },
-        {
-          "file": "apps/client-gateway/src/main.ts",
-          "hash": "872195013278032460"
-        },
-        {
-          "file": "apps/client-gateway/tsconfig.app.json",
-          "hash": "18146536384686769023"
-        },
-        {
-          "file": "apps/client-gateway/tsconfig.json",
-          "hash": "9035462369953600829"
-        },
-        {
-          "file": "apps/client-gateway/tsconfig.spec.json",
-          "hash": "11550347367511341917"
-        }
-      ],
-      "nest-rspack": [
-        {
-          "file": "apps/nest-rspack/.eslintrc.json",
-          "hash": "13800677001662881425"
-        },
-        {
-          "file": "apps/nest-rspack/.gitignore",
-          "hash": "1370426417697985197"
-        },
-        {
-          "file": "apps/nest-rspack/jest.config.ts",
-          "hash": "13477311757523212276"
-        },
-        {
-          "file": "apps/nest-rspack/project.json",
-          "hash": "12226847186432306477"
-        },
-        {
-          "file": "apps/nest-rspack/rspack.config.js",
-          "hash": "13197698510266324639"
-        },
-        {
-          "file": "apps/nest-rspack/src/app/app.controller.spec.ts",
-          "hash": "9499997688052526633"
-        },
-        {
-          "file": "apps/nest-rspack/src/app/app.controller.ts",
-          "hash": "9005150069945785676"
-        },
-        {
-          "file": "apps/nest-rspack/src/app/app.module.ts",
-          "hash": "3163250445227373966"
-        },
-        {
-          "file": "apps/nest-rspack/src/app/app.service.spec.ts",
-          "hash": "8587461140686713758"
-        },
-        {
-          "file": "apps/nest-rspack/src/app/app.service.ts",
-          "hash": "9967902337593410053"
-        },
-        {
-          "file": "apps/nest-rspack/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/nest-rspack/src/common/decorators/pagination.decorator.ts",
-          "hash": "5761640625907991086"
-        },
-        {
-          "file": "apps/nest-rspack/src/common/dto/pagination.dto.ts",
-          "hash": "11264516328280732896"
-        },
-        {
-          "file": "apps/nest-rspack/src/common/index.ts",
+          "file": "apps/tcp-ms-orders/src/common/index.ts",
           "hash": "4431058693106873794"
         },
         {
-          "file": "apps/nest-rspack/src/configs/envs/env.ts",
-          "hash": "16557858982327129794"
+          "file": "apps/tcp-ms-orders/src/configs/envs/env.ts",
+          "hash": "9772075706245581807"
         },
         {
-          "file": "apps/nest-rspack/src/configs/index.ts",
+          "file": "apps/tcp-ms-orders/src/configs/index.ts",
           "hash": "3108961917511154721"
         },
         {
-          "file": "apps/nest-rspack/src/configs/swagger-ui/swagger.ts",
+          "file": "apps/tcp-ms-orders/src/configs/swagger-ui/swagger.ts",
           "hash": "6080783699236680068"
         },
         {
-          "file": "apps/nest-rspack/src/main.ts",
-          "hash": "10684599659242972884"
+          "file": "apps/tcp-ms-orders/src/main.ts",
+          "hash": "4061316532819762650"
         },
         {
-          "file": "apps/nest-rspack/tsconfig.app.json",
+          "file": "apps/tcp-ms-orders/tsconfig.app.json",
           "hash": "18146536384686769023"
         },
         {
-          "file": "apps/nest-rspack/tsconfig.json",
+          "file": "apps/tcp-ms-orders/tsconfig.json",
           "hash": "3490524966360018312"
         },
         {
-          "file": "apps/nest-rspack/tsconfig.spec.json",
+          "file": "apps/tcp-ms-orders/tsconfig.spec.json",
           "hash": "11550347367511341917"
         }
       ]

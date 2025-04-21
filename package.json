@@ -7,12 +7,14 @@
     "serve-docs": "nx serve nest-api-doc",
     "serve-httpproducts": "nx serve http-ms-products",
     "serve-msproducts": "nx serve tcp-ms-products",
+    "serve-msorders": "nx serve tcp-ms-orders",
     "serve-gateway": "nx serve client-gateway"
   },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^11.0.20",
     "@nestjs/core": "^11.0.20",
+    "@nestjs/mapped-types": "*",
     "@nestjs/microservices": "^11.0.20",
     "@nestjs/platform-express": "^11.0.20",
     "@nestjs/swagger": "^11.1.4",

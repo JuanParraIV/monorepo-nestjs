@@ -5,6 +5,9 @@ NX=nx
 BUN=bun
 DOCKER=docker
 
+MS_ORDERS_PATH=./apps/tcp-ms-orders
+MS_PRODUCTS_PATH=./apps/tcp-ms-products
+
 # Default target
 .PHONY: help
 help:
@@ -63,21 +66,27 @@ upgrade:
 	$(BUN) upgrade
 
 postgres:
-	$(DOCKER) run --name microdb -e POSTGRES_USER=root -e POSTGRES_PASSWORD=TEst.0429.30 -p 5435:5432 -d postgres:14-alpine
-	@echo "Postgres container started on port 5435"
-	@echo "Postgres container started with name microdb"
+	$(DOCKER) run --name $(DBNAME) -e POSTGRES_USER=root -e POSTGRES_PASSWORD=TEst.0429.30 -p $(PORT):5432 -d postgres:14-alpine
+	@echo "Postgres container started on port $(PORT)"
+	@echo "Postgres container started with name $(DBNAME)"
 
 postgresdown:
-	$(DOCKER) stop microdb
-	$(DOCKER) rm microdb
-	@echo "Postgres container stopped and removed"
+	$(DOCKER) stop $(DBNAME)
+	$(DOCKER) rm $(DBNAME)
+	@echo "Postgres container $(DBNAME) stopped and removed"
 
 createdb:
-	$(DOCKER) exec -it microdb createdb --username=root --owner=root micro_db
-	@echo "Database micro_db created"
+	$(DOCKER) exec -it $(DBNAME) createdb --username=root --owner=root $(DBNAME)
+	@echo "Database $(DBNAME) created"
 
 dropdb:
-	$(DOCKER) exec -it microdb dropdb micro_db
-	@echo "Database micro_db dropped"
+	$(DOCKER) exec -it $(DBNAME) dropdb $(DBNAME)
+	@echo "Database $(DBNAME) dropped"
+
+migrateup:
+	$(BUN)x prisma migrate dev --name $(MOTIVO) --schema=$(MS_PATH)/prisma/schema.prisma
+
+migratedown:
+	$(BUN)x prisma migrate reset --schema=$(MS_PATH)/prisma/schema.prisma --force
 
 ci: lint test build
