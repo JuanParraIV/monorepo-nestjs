@@ -1,0 +1,4 @@
+export enum Constants {
+  PRODUCTS_SERVICE = 'PRODUCTS_SERVICE',
+  ANOTHER_SERVICE = 'ANOTHER_SERVICE',
+}

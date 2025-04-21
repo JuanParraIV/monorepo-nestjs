@@ -5,8 +5,9 @@
   "scripts": {
     "serve-api": "nx serve nest-rspack",
     "serve-docs": "nx serve nest-api-doc",
-    "serve-products": "nx serve http-ms-products",
-    "serve-tcp" : "nx serve tcp-ms"
+    "serve-httpproducts": "nx serve http-ms-products",
+    "serve-msproducts": "nx serve tcp-ms-products",
+    "serve-gateway": "nx serve client-gateway"
   },
   "private": true,
   "dependencies": {
@@ -41,6 +42,7 @@
     "@nx/node": "20.8.0",
     "@nx/react": "20.8.0",
     "@nx/rspack": "20.8.0",
+    "@nx/web": "20.8.0",
     "@nx/webpack": "20.8.0",
     "@nx/workspace": "20.8.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.16",
@@ -48,6 +50,9 @@
     "@rspack/dev-server": "~1.1.1",
     "@rspack/plugin-minify": "~0.7.5",
     "@svgr/webpack": "^8.1.0",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
     "@testing-library/react": "16.3.0",
     "@types/jest": "^29.5.14",
     "@types/node": "22.14.1",
@@ -70,6 +75,7 @@
     "ts-jest": "^29.3.2",
     "ts-node": "10.9.2",
     "typescript": "~5.8.3",
-    "url-loader": "^4.1.1"
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^5.1.4"
   }
 }

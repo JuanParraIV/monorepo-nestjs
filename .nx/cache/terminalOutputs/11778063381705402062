@@ -1,0 +1,38 @@
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m nest-api-doc [39m[27m[0m [2mapps/nest-api-doc/src/app/posts/[22m[1mposts.service.spec.ts[22m ([0m[1m[41m14.428 s[49m[22m[0m)
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [0m[7m[37m nest-api-doc [39m[27m[0m [2mapps/nest-api-doc/src/app/posts/[22m[1mposts.controller.spec.ts[22m ([0m[1m[41m16.122 s[49m[22m[0m)
+[1m[31m  [1m● [22m[1mPostsController › should be defined[39m[22m
+
+    Nest can't resolve dependencies of the PostsController (?). Please make sure that the argument PostsService at index [0] is available in the RootTestModule context.
+
+    Potential solutions:
+    - Is RootTestModule a valid NestJS module?
+    - If PostsService is a provider, is it part of the current RootTestModule?
+    - If PostsService is exported from a separate @Module, is that module imported within RootTestModule?
+      @Module({
+        imports: [ /* the Module containing PostsService */ ]
+      })
+[2m[22m
+[2m      [2mat TestingInjector.lookupComponentInParentModules ([22m[2m../../node_modules/@nestjs/core/injector/injector.js[2m:262:19)[22m[2m[22m
+[2m      [2mat TestingInjector.resolveComponentInstance ([22m[2m../../node_modules/@nestjs/core/injector/injector.js[2m:215:33)[22m[2m[22m
+[2m      [2mat TestingInjector.resolveComponentInstance ([22m[2m../../node_modules/@nestjs/testing/testing-injector.js[2m:19:45)[22m[2m[22m
+[2m      [2mat resolveParam ([22m[2m../../node_modules/@nestjs/core/injector/injector.js[2m:129:38)[22m[2m[22m
+[2m          at async Promise.all (index 0)[22m
+[2m      [2mat TestingInjector.resolveConstructorParams ([22m[2m../../node_modules/@nestjs/core/injector/injector.js[2m:144:27)[22m[2m[22m
+[2m      [2mat TestingInjector.loadInstance ([22m[2m../../node_modules/@nestjs/core/injector/injector.js[2m:70:13)[22m[2m[22m
+[2m      [2mat TestingInjector.loadController ([22m[2m../../node_modules/@nestjs/core/injector/injector.js[2m:89:9)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/@nestjs/core/injector/instance-loader.js[2m:68:13[22m[2m[22m
+[2m          at async Promise.all (index 0)[22m
+[2m      [2mat TestingInstanceLoader.createInstancesOfControllers ([22m[2m../../node_modules/@nestjs/core/injector/instance-loader.js[2m:67:9)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/@nestjs/core/injector/instance-loader.js[2m:42:13[22m[2m[22m
+[2m          at async Promise.all (index 1)[22m
+[2m      [2mat TestingInstanceLoader.createInstances ([22m[2m../../node_modules/@nestjs/core/injector/instance-loader.js[2m:39:9)[22m[2m[22m
+[2m      [2mat TestingInstanceLoader.createInstancesOfDependencies ([22m[2m../../node_modules/@nestjs/core/injector/instance-loader.js[2m:22:13)[22m[2m[22m
+[2m      [2mat TestingInstanceLoader.createInstancesOfDependencies ([22m[2m../../node_modules/@nestjs/testing/testing-instance-loader.js[2m:9:9)[22m[2m[22m
+[2m      [2mat TestingModuleBuilder.createInstancesOfDependencies ([22m[2m../../node_modules/@nestjs/testing/testing-module.builder.js[2m:118:9)[22m[2m[22m
+[2m      [2mat TestingModuleBuilder.compile ([22m[2m../../node_modules/@nestjs/testing/testing-module.builder.js[2m:74:9)[22m[2m[22m
+
+[1mTest Suites: [22m[1m[31m1 failed[39m[22m, [1m[32m1 passed[39m[22m, 2 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, [1m[32m1 passed[39m[22m, 2 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m19.784 s[39m[22m
+[2mRan all test suites[22m[2m.[22m

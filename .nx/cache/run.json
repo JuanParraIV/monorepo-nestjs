@@ -1,18 +1,18 @@
 {
   "run": {
-    "command": "nx serve products",
-    "startTime": "2025-04-20T01:24:51.222Z",
-    "endTime": "2025-04-20T01:26:42.812Z",
+    "command": "nx serve tcp-ms",
+    "startTime": "2025-04-21T14:31:10.109Z",
+    "endTime": "2025-04-21T14:37:22.220Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "products:serve:development",
+      "taskId": "tcp-ms:serve:development",
       "target": "serve",
-      "projectName": "products",
-      "hash": "10620256145586096317",
-      "startTime": "2025-04-20T01:24:51.232Z",
-      "endTime": "2025-04-20T01:26:42.809Z",
+      "projectName": "tcp-ms",
+      "hash": "5213499142563424919",
+      "startTime": "2025-04-21T14:31:10.118Z",
+      "endTime": "2025-04-21T14:37:22.208Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

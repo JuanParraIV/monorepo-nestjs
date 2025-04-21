@@ -10,12 +10,14 @@ import { AppModule } from "./app/app.module";
 import { envs } from "./configs";
 
 async function bootstrap() {
-	const logger = new Logger("Main");
+  const name = "TCP-Microservice";
+	const logger = new Logger(name);
 	const app = await NestFactory.createMicroservice<MicroserviceOptions>(
 		AppModule,
 		{
 			transport: Transport.TCP,
 			options: {
+        host: envs.host,
 				port: envs.port,
 			},
 		},
@@ -31,7 +33,7 @@ async function bootstrap() {
 
 	await app.listen();
 	logger.log(
-		`🚀 Application is running on: http://localhost:${envs.port}`,
+		`🚀 ${name} is running on: http://${envs.host}:${envs.port}`,
 	);
 }
 

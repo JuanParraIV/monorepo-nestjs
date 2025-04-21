@@ -1,0 +1,14 @@
+ts-jest[ts-compiler] (WARN) Got a `.js` file to compile while `allowJs` option is not set to `true` (file: /home/jotamario/Documents/DevOps/NestJS/monorepo-nestjs/apps/http-ms-products/generated/products-prisma/index.js). To fix this:
+  - if you want TypeScript to process JS files, set `allowJs` to `true` in your TypeScript config (usually tsconfig.json)
+  - if you do not want TypeScript to process your `.js` files, in your Jest config change the `transform` key which value is `ts-jest` so that it does not match `.js` files anymore
+ts-jest[ts-compiler] (WARN) Got a `.js` file to compile while `allowJs` option is not set to `true` (file: /home/jotamario/Documents/DevOps/NestJS/monorepo-nestjs/apps/http-ms-products/generated/products-prisma/runtime/library.js). To fix this:
+  - if you want TypeScript to process JS files, set `allowJs` to `true` in your TypeScript config (usually tsconfig.json)
+  - if you do not want TypeScript to process your `.js` files, in your Jest config change the `transform` key which value is `ts-jest` so that it does not match `.js` files anymore
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m products [39m[27m[0m [2mapps/http-ms-products/src/app/products/[22m[1mproducts.service.spec.ts[22m ([0m[1m[41m16.104 s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m products [39m[27m[0m [2mapps/http-ms-products/src/app/products/[22m[1mproducts.controller.spec.ts[22m ([0m[1m[41m17.213 s[49m[22m[0m)
+
+[1mTest Suites: [22m[1m[32m2 passed[39m[22m, 2 total
+[1mTests:       [22m[1m[32m2 passed[39m[22m, 2 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        18.919 s
+[2mRan all test suites[22m[2m.[22m
